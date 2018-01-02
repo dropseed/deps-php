@@ -1,0 +1,17 @@
+{
+    "dependencies": [
+        {
+            "available": [
+                {
+                    "version": "dev-master#9976fa3"
+                }
+            ],
+            "source": "packagist",
+            "installed": {
+                "version": "dev-master#2b7028a"
+            },
+            "name": "jetbrains/phpstorm-stubs",
+            "path": "/"
+        }
+    ]
+}

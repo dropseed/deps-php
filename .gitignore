@@ -1,0 +1,3 @@
+# dependencies-cli test cache
+.cache
+vendor

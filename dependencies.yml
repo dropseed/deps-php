@@ -1,0 +1,13 @@
+collectors:
+
+- type: php-composer
+  path: /
+  actors:
+  - type: php-composer
+    versions: Y.Y.Y
+
+- type: python-pip
+  path: requirements_test.txt
+  actors:
+  - type: python-pip
+    versions: "Y.Y.Y"
