@@ -9,15 +9,6 @@ cases:
   user_config:
     path: /
 
-- name: Basic transitive test
-  dockerfile: Dockerfile
-  repo_contents: test/repo_base
-  output_dependencies_json: test/dependencies_with_transitive.json
-  user_config:
-    path: /
-    settings:
-      collect_transitive: true
-
 - name: Subdirectory test
   dockerfile: Dockerfile
   repo_contents: test/repo_with_subdirectory
