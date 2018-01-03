@@ -33,7 +33,7 @@ cases:
 - name: Basic test with missing dependency
   dockerfile: Dockerfile
   repo_contents: test/repo_with_missing_dependency
-  output_dependencies_json: test/dependencies.json
+  output_dependencies_json: test/dependencies_missing.json
   user_config:
     path: /
 

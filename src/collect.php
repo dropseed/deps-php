@@ -70,8 +70,8 @@ function manifestSchemaFromLockfile($dependency_path) {
         }
     };
 
-    $getAvailableVersionsForManifest = function($name, $installed, $constraint) {
-        $versions = getAvailableVersionsForPackage($name);
+    $getAvailableVersionsForManifest = function($name, $installed, $constraint) use($dependency_path) {
+        $versions = getAvailableVersionsForPackage($name, $dependency_path);
 
         // manifest only wants versions outside (and above) of their range
         $versions = array_filter($versions, function($v) use($installed, $constraint) {
@@ -150,8 +150,8 @@ function getAllComposerLockPackages($dependency_path) {
     return $all_packages;
 }
 
-function getAvailableVersionsForPackage($name) {
-    $info_output = shell_exec("composer show $name --all");
+function getAvailableVersionsForPackage($name, $dependency_path) {
+    $info_output = shell_exec("cd $dependency_path && composer show $name --all");
     preg_match('/^versions : (.*)$/m', $info_output, $matches);
 
     if (count($matches) > 1) {

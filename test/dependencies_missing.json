@@ -1,8 +1,8 @@
 {
   "lockfiles": {
-    "app/composer.lock": {
+    "composer.lock": {
       "current": {
-        "checksum": "72d521dbf44b2dbcabb182a7887143a6",
+        "checksum": "ac003eb58454f928e4db38e1b5b3396f",
         "dependencies": {
           "monolog/monolog": {
             "installed": {
@@ -60,77 +60,16 @@
             "relationship": "transitive",
             "source": "packagist"
           },
-          "symfony/yaml": {
+          "somethingthatdoesntexist": {
             "installed": {
-              "name": "v2.8.26"
-            },
-            "relationship": "transitive",
-            "source": "packagist"
-          }
-        }
-      },
-      "updated": {
-        "checksum": "616f5d2dbf982300237df052b741c8c1",
-        "dependencies": {
-          "monolog/monolog": {
-            "installed": {
-              "name": "1.0.2"
+              "name": "1.0.0"
             },
             "relationship": "direct",
-            "source": "packagist"
-          },
-          "phpunit/php-code-coverage": {
-            "installed": {
-              "name": "1.2.18"
-            },
-            "relationship": "transitive",
-            "source": "packagist"
-          },
-          "phpunit/php-file-iterator": {
-            "installed": {
-              "name": "1.4.5"
-            },
-            "relationship": "transitive",
-            "source": "packagist"
-          },
-          "phpunit/php-text-template": {
-            "installed": {
-              "name": "1.2.1"
-            },
-            "relationship": "transitive",
-            "source": "packagist"
-          },
-          "phpunit/php-timer": {
-            "installed": {
-              "name": "1.0.9"
-            },
-            "relationship": "transitive",
-            "source": "packagist"
-          },
-          "phpunit/php-token-stream": {
-            "installed": {
-              "name": "1.2.2"
-            },
-            "relationship": "transitive",
-            "source": "packagist"
-          },
-          "phpunit/phpunit": {
-            "installed": {
-              "name": "3.7.38"
-            },
-            "relationship": "direct",
-            "source": "packagist"
-          },
-          "phpunit/phpunit-mock-objects": {
-            "installed": {
-              "name": "1.2.3"
-            },
-            "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.26"
             },
             "relationship": "transitive",
             "source": "packagist"
@@ -140,7 +79,7 @@
     }
   },
   "manifests": {
-    "app/composer.json": {
+    "composer.json": {
       "dependencies": {
         "monolog/monolog": {
           "available": [
@@ -1053,9 +992,17 @@
             "name": "3.7.38"
           },
           "source": "packagist"
+        },
+        "somethingthatdoesntexist": {
+          "available": [],
+          "constraint": "1.0.0",
+          "installed": {
+            "name": "1.0.0"
+          },
+          "source": "packagist"
         }
       },
-      "lockfile_path": "app/composer.lock"
+      "lockfile_path": "composer.lock"
     }
   }
 }
