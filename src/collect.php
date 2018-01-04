@@ -53,11 +53,11 @@ function collect($dependency_path) {
 }
 
 function composerInstall($dependency_path) {
-    shell_exec("cd $dependency_path && composer install --ignore-platform-reqs --no-scripts");
+    shell_exec("cd $dependency_path && composer install --ignore-platform-reqs --no-scripts --no-progress");
 }
 
 function composerUpdate($dependency_path) {
-    shell_exec("cd $dependency_path && composer update --ignore-platform-reqs --no-scripts");
+    shell_exec("cd $dependency_path && composer update --ignore-platform-reqs --no-scripts --no-progress");
 }
 
 function manifestSchemaFromLockfile($dependency_path) {
