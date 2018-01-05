@@ -2,7 +2,6 @@
   "lockfiles": {
     "app/composer.lock": {
       "current": {
-        "checksum": "72d521dbf44b2dbcabb182a7887143a6",
         "dependencies": {
           "monolog/monolog": {
             "installed": {
@@ -67,10 +66,10 @@
             "relationship": "transitive",
             "source": "packagist"
           }
-        }
+        },
+        "fingerprint": "72d521dbf44b2dbcabb182a7887143a6"
       },
       "updated": {
-        "checksum": "616f5d2dbf982300237df052b741c8c1",
         "dependencies": {
           "monolog/monolog": {
             "installed": {
@@ -130,12 +129,13 @@
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           }
-        }
+        },
+        "fingerprint": "063cc108ba8365adf6b4c8f1b6c85a1d"
       }
     }
   },

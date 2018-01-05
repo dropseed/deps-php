@@ -2,7 +2,6 @@
   "lockfiles": {
     "composer.lock": {
       "current": {
-        "checksum": "0a9b1713d32162fac1a9dd9bd39057fb",
         "dependencies": {
           "asm89/stack-cors": {
             "installed": {
@@ -375,10 +374,10 @@
             "relationship": "transitive",
             "source": "packagist"
           }
-        }
+        },
+        "fingerprint": "0a9b1713d32162fac1a9dd9bd39057fb"
       },
       "updated": {
-        "checksum": "6e7ebe5da5780322005dbcdb46fb9ea5",
         "dependencies": {
           "asm89/stack-cors": {
             "installed": {
@@ -585,49 +584,49 @@
           },
           "symfony/class-loader": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/console": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/debug": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/dependency-injection": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/event-dispatcher": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/http-foundation": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/http-kernel": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
@@ -669,7 +668,7 @@
           },
           "symfony/process": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
@@ -683,35 +682,35 @@
           },
           "symfony/routing": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/serializer": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/translation": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/validator": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.32"
+              "name": "v2.8.33"
             },
             "relationship": "transitive",
             "source": "packagist"
@@ -725,7 +724,7 @@
           },
           "zendframework/zend-diactoros": {
             "installed": {
-              "name": "1.6.1"
+              "name": "1.7.0"
             },
             "relationship": "transitive",
             "source": "packagist"
@@ -751,7 +750,8 @@
             "relationship": "transitive",
             "source": "packagist"
           }
-        }
+        },
+        "fingerprint": "7a7cd5db1c920c6318b5f162c3bcf6fb"
       }
     }
   },

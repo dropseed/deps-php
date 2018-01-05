@@ -2,7 +2,6 @@
   "lockfiles": {
     "composer.lock": {
       "current": {
-        "checksum": "ac003eb58454f928e4db38e1b5b3396f",
         "dependencies": {
           "monolog/monolog": {
             "installed": {
@@ -74,7 +73,8 @@
             "relationship": "transitive",
             "source": "packagist"
           }
-        }
+        },
+        "fingerprint": "ac003eb58454f928e4db38e1b5b3396f"
       }
     }
   },

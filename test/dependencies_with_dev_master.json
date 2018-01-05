@@ -1,17 +1,49 @@
 {
-    "dependencies": [
-        {
-            "available": [
-                {
-                    "version": "dev-master#9976fa3"
-                }
-            ],
-            "source": "packagist",
+  "lockfiles": {
+    "composer.lock": {
+      "current": {
+        "dependencies": {
+          "jetbrains/phpstorm-stubs": {
             "installed": {
-                "version": "dev-master#2b7028a"
+              "name": "dev-master"
             },
-            "name": "jetbrains/phpstorm-stubs",
-            "path": "/"
+            "relationship": "direct",
+            "source": "packagist"
+          }
+        },
+        "fingerprint": "acf2d805825a0c8559f58a5744122fa1"
+      },
+      "updated": {
+        "dependencies": {
+          "jetbrains/phpstorm-stubs": {
+            "installed": {
+              "name": "dev-master"
+            },
+            "relationship": "direct",
+            "source": "packagist"
+          }
+        },
+        "fingerprint": "76ef52fb56e59ce51ab4dc08de2f329d"
+      }
+    }
+  },
+  "manifests": {
+    "composer.json": {
+      "dependencies": {
+        "jetbrains/phpstorm-stubs": {
+          "available": [
+            {
+              "name": "dev-pr/117"
+            }
+          ],
+          "constraint": "dev-master",
+          "installed": {
+            "name": "dev-master"
+          },
+          "source": "packagist"
         }
-    ]
+      },
+      "lockfile_path": "composer.lock"
+    }
+  }
 }

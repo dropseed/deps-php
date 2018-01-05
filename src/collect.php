@@ -41,7 +41,7 @@ function collect($dependency_path) {
         $updated_schema = lockfileSchemaFromLockfile($dependency_path);
 
         // only include in output if the file actually changed
-        if ($updated_schema['checksum'] !== $original_schema['checksum']) {
+        if ($updated_schema['fingerprint'] !== $original_schema['fingerprint']) {
             $output['lockfiles'][$lockfile_repo_path]['updated'] = $updated_schema;
         }
 
@@ -125,7 +125,7 @@ function lockfileSchemaFromLockfile($dependency_path) {
     }
 
     return array(
-        'checksum' => md5_file(composerLockPath($dependency_path)),
+        'fingerprint' => getComposerLockFingerprint($dependency_path),
         'dependencies' => $dependencies
     );
 }
@@ -148,6 +148,12 @@ function getAllComposerLockPackages($dependency_path) {
     $all_packages = array_merge($composer_packages, $composer_packages_dev);
 
     return $all_packages;
+}
+
+function getComposerLockFingerprint($dependency_path) {
+    // $composer_lock = json_decode(file_get_contents(composerLockPath($dependency_path)), true);
+    // return $composer_lock['content-hash'];
+    return md5_file(composerLockPath($dependency_path));
 }
 
 function getAvailableVersionsForPackage($name, $dependency_path) {
