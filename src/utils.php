@@ -2,7 +2,7 @@
 
 function outputSchema($schema) {
     $json = json_encode($schema);
-    echo "<DependenciesSchema>$json</DependenciesSchema>";
+    echo "<Dependencies>$json</Dependencies>";
 }
 
 function pathInRepo($path) {
