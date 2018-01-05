@@ -1,0 +1,39 @@
+{
+  "composer.lock": {
+    "dependencies": {
+      "lockfiles": {
+        "composer.lock": {
+          "current": {
+            "dependencies": {
+              "monolog/monolog": {
+                "installed": {
+                  "name": "1.0.2"
+                },
+                "relationship": "direct",
+                "source": "packagist"
+              },
+              "paragonie/random_compat": {
+                "installed": {
+                  "name": "v2.0.11"
+                },
+                "relationship": "transitive",
+                "source": "packagist"
+              },
+              "ramsey/uuid": {
+                "installed": {
+                  "name": "3.6.0"
+                },
+                "relationship": "direct",
+                "source": "packagist"
+              }
+            },
+            "fingerprint": "db69c99f9c71bdaec87db7919061fe2f"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "git_branch": "lockfile-update-job-"
+    }
+  }
+}

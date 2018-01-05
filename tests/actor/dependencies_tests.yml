@@ -1,0 +1,61 @@
+name: actor-php-composer
+type: actor
+
+cases:
+- name: Basic lockfile test
+  dockerfile: Dockerfile
+  repo_contents: tests/actor/basic/repo_base
+  input_dependencies_json: tests/actor/basic/lockfile_input.json
+  output_dependencies_json: tests/actor/basic/lockfile_output.json
+
+- name: Basic test
+  dockerfile: Dockerfile
+  repo_contents: tests/actor/basic/repo_base
+  input_dependencies_json: tests/actor/basic/dependencies.json
+  output_dependencies_json: tests/actor/basic/dependencies.json
+  tests:
+    - |
+        git checkout monolog/monolog-1.23.0-#0.0.0 && \
+        diff -x '.git' -x 'vendor' ${CWD}/tests/actor/basic/repo_final_monolog/ ./
+    - |
+        git checkout ramsey/uuid-3.6.1-#0.0.0 && \
+        diff -x '.git' -x 'vendor' ${CWD}/tests/actor/basic/repo_final_uuid/ ./
+  user_config:
+    settings:
+      pr_labels:
+      - testing
+
+- name: Subdirectory test
+  dockerfile: Dockerfile
+  repo_contents: tests/actor/subdirectory/repo_base
+  input_dependencies_json: tests/actor/subdirectory/dependencies.json
+  output_dependencies_json: tests/actor/subdirectory/dependencies.json
+  tests:
+    - |
+        git checkout monolog/monolog-1.23.0-#0.0.0 && \
+        diff -x '.git' -x 'vendor' ${CWD}/tests/actor/subdirectory/repo_final_monolog/ ./
+    - |
+        git checkout ramsey/uuid-3.6.1-#0.0.0 && \
+        diff -x '.git' -x 'vendor' ${CWD}/tests/actor/subdirectory/repo_final_uuid/ ./
+  user_config:
+    settings:
+      pr_labels:
+      - testing
+
+- name: No composer.lock test
+  dockerfile: Dockerfile
+  repo_contents: tests/actor/no_lockfile/repo_base
+  input_dependencies_json: tests/actor/no_lockfile/dependencies.json
+  output_dependencies_json: tests/actor/no_lockfile/dependencies.json
+  tests:
+    - |
+        git checkout monolog/monolog-1.23.0-#0.0.0 && \
+        diff -x '.git' -x 'vendor' ${CWD}/tests/actor/no_lockfile/repo_final_monolog/ ./
+    - |
+        git checkout ramsey/uuid-3.6.1-#0.0.0 && \
+        diff -x '.git' -x 'vendor' ${CWD}/tests/actor/no_lockfile/repo_final_uuid/ ./
+  user_config:
+    settings:
+      commit_message_prefix: "deps: "
+      pr_labels:
+      - testing

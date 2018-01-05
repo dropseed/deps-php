@@ -1,0 +1,36 @@
+{
+    "dependencies": [
+        {
+            "name": "monolog/monolog",
+            "source": "packagist",
+            "path": "/",
+            "installed": {
+                "version": "1.0.2"
+            },
+            "available": [
+                {
+                    "version": "1.23.0"
+                },
+                {
+                    "version": "1.22.1"
+                },
+                {
+                    "version": "1.22.0"
+                }
+            ]
+        },
+        {
+            "name": "ramsey/uuid",
+            "source": "packagist",
+            "path": "/",
+            "installed": {
+                "version": "3.6.0"
+            },
+            "available": [
+                {
+                    "version": "3.6.1"
+                }
+            ]
+        }
+    ]
+}
