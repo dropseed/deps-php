@@ -423,7 +423,7 @@
           },
           "doctrine/inflector": {
             "installed": {
-              "name": "v1.2.0"
+              "name": "v1.3.0"
             },
             "relationship": "transitive",
             "source": "packagist"
@@ -751,7 +751,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "7a7cd5db1c920c6318b5f162c3bcf6fb"
+        "fingerprint": "32789aa66991c4f43219021d9c970cf6"
       }
     }
   },
