@@ -26,7 +26,7 @@ cases:
 - name: Basic test with no lockfile
   dockerfile: Dockerfile
   repo_contents: tests/collector/repo_no_lockfile
-  output_dependencies_json: tests/collector/dependencies.json
+  output_dependencies_json: tests/collector/dependencies_with_no_lockfile.json
   user_config:
     path: /
 
