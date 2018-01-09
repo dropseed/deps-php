@@ -97,7 +97,7 @@ function manifestSchemaFromLockfile($dependency_path) {
         );
     }
 
-    return array('dependencies' => $dependencies);
+    return array('current' => array('dependencies' => $dependencies));
 }
 
 function lockfileSchemaFromLockfile($dependency_path) {
