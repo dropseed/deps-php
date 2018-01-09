@@ -1,11 +1,40 @@
 <?php
 
+const COMPOSER_OPTIONS = "--ignore-platform-reqs --no-scripts --no-progress --no-suggest";
+
 function composerInstall($dependency_path) {
-    runCommand("cd $dependency_path && composer install --ignore-platform-reqs --no-scripts --no-progress --no-suggest --no-autoloader");
+    runCommand("cd $dependency_path && composer install --no-autoloader " . COMPOSER_OPTIONS);
 }
 
 function composerUpdate($dependency_path) {
-    runCommand("cd $dependency_path && composer update --ignore-platform-reqs --no-scripts --no-progress --no-suggest --no-autoloader");
+    runCommand("cd $dependency_path && composer update --no-autoloader " . COMPOSER_OPTIONS);
+}
+
+function composerRequire($dependency_path, $args) {
+    runCommand("cd $dependency_path && composer require $args " . COMPOSER_OPTIONS);
+}
+
+function composerJsonPath($dependency_path) {
+    return path_join($dependency_path, 'composer.json');
+}
+
+function composerLockPath($dependency_path) {
+    return path_join($dependency_path, 'composer.lock');
+}
+
+function packageIsRequireDev($dependency_path, $name) {
+    $composer_json_path = composerJsonPath($dependency_path);
+    $composer_json = json_decode(file_get_contents($composer_json_path), true);
+    $composer_require = array_key_exists('require', $composer_json) ? $composer_json['require'] : array();
+    $composer_require_dev = array_key_exists('require-dev', $composer_json) ? $composer_json['require-dev'] : array();
+
+    if (array_key_exists($name, $composer_require)) {
+        return false;
+    } else if (array_key_exists($name, $composer_require_dev)) {
+        return true;
+    } else {
+        throw new Exception("Didn't find $name in $composer_json_path require or require-dev.");
+    }
 }
 
 function getAllComposerJsonRequirements($dependency_path) {

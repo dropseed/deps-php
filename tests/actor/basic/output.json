@@ -1,9 +1,20 @@
 {
-  "composer.lock": {
+  "PR #0": {
     "dependencies": {
       "lockfiles": {
         "composer.lock": {
           "current": {
+            "dependencies": {
+              "test": {
+                "installed": {
+                  "name": "1.0.0"
+                },
+                "source": "test"
+              }
+            },
+            "fingerprint": "test"
+          },
+          "updated": {
             "dependencies": {
               "monolog/monolog": {
                 "installed": {
@@ -33,7 +44,7 @@
       }
     },
     "metadata": {
-      "git_branch": "lockfile-update-job-"
+      "foo": "bar"
     }
   }
 }

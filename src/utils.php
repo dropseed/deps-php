@@ -1,15 +1,5 @@
 <?php
 
-function outputDependencies($schema) {
-    $json = json_encode($schema);
-    echo "<Dependencies>$json</Dependencies>";
-}
-
-function outputActions($schema) {
-    $json = json_encode($schema);
-    echo "<Actions>$json</Actions>";
-}
-
 function pathInRepo($path) {
     $real = realpath($path);
     return substr($real, 6);  // remove /repo/
@@ -40,7 +30,9 @@ function runCommand($cmd) {
         var_dump($output);
         throw new Exception("Exception running: $cmd\n\n$output");
     }
-    return implode($output, "\n");
+    $output = implode($output, "\n");
+    echo $output . "\n";
+    return $output;
 }
 
 function isInTestMode() {

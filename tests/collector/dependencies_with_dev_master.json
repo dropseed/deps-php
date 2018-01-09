@@ -23,24 +23,26 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "76ef52fb56e59ce51ab4dc08de2f329d"
+        "fingerprint": "db48e2f9dca70b5de805508207b60aeb"
       }
     }
   },
   "manifests": {
     "composer.json": {
-      "dependencies": {
-        "jetbrains/phpstorm-stubs": {
-          "available": [
-            {
-              "name": "dev-pr/117"
-            }
-          ],
-          "constraint": "dev-master",
-          "installed": {
-            "name": "dev-master"
-          },
-          "source": "packagist"
+      "current": {
+        "dependencies": {
+          "jetbrains/phpstorm-stubs": {
+            "available": [
+              {
+                "name": "dev-pr/117"
+              }
+            ],
+            "constraint": "dev-master",
+            "installed": {
+              "name": "dev-master"
+            },
+            "source": "packagist"
+          }
         }
       },
       "lockfile_path": "composer.lock"

@@ -49,7 +49,8 @@ function collect($dependency_path) {
         $output['manifests'][$composer_json_repo_path]['lockfile_path'] = $lockfile_repo_path;
     }
 
-    outputDependencies($output);
+    $json = json_encode($output);
+    echo "<Dependencies>$json</Dependencies>";
 }
 
 function manifestSchemaFromLockfile($dependency_path) {
@@ -123,31 +124,27 @@ function lockfileSchemaFromLockfile($dependency_path) {
 }
 
 function getAvailableVersionsForPackage($name, $dependency_path) {
-    $info_output = runCommand("cd $dependency_path && composer show $name --all");
+    try {
+        $info_output = runCommand("cd $dependency_path && composer show $name --all");
+    } catch (Exception $e) {
+        return array();
+    }
+
     preg_match('/^versions : (.*)$/m', $info_output, $matches);
 
     if (count($matches) > 1) {
         $versions_string = $matches[1];
         $versions = explode(', ', $versions_string);
-        $available = array_map(function ($version) {
+        return array_map(function ($version) {
             // the currently installed version has an * in front
             if (substr($version, 0, 2) === "* ") {
-                $version = substr($version, 2);
+                return substr($version, 2);
             }
             return $version;
         }, $versions);
-        return $versions;
     }
     echo "No available versions found for \"$name\", skipping\n";
     return array();
-}
-
-function composerJsonPath($dependency_path) {
-    return path_join($dependency_path, 'composer.json');
-}
-
-function composerLockPath($dependency_path) {
-    return path_join($dependency_path, 'composer.lock');
 }
 
 function shouldSkipPackageName($name) {

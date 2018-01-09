@@ -1,0 +1,17 @@
+{
+    "lockfiles": {
+        "composer.lock": {
+            "current": {
+                "dependencies": {
+                    "test": {
+                        "source": "test",
+                        "installed": {
+                            "name": "1.0.0"
+                        }
+                    }
+                },
+                "fingerprint": "test"
+            }
+        }
+    }
+}
