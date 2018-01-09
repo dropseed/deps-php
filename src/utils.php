@@ -40,7 +40,7 @@ function runCommand($cmd) {
         var_dump($output);
         throw new Exception("Exception running: $cmd\n\n$output");
     }
-    return $output;
+    return implode($output, "\n");
 }
 
 function isInTestMode() {
