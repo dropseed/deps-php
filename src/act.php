@@ -1,7 +1,7 @@
 <?php
 
 function act() {
-    $schema = json_decode(file_get_contents('/dependencies/schema.json'), true);
+    $schema = json_decode(file_get_contents('/dependencies/input_data.json'), true);
     $job_id = getenv('JOB_ID');
     $commit_message_prefix = getenv('SETTING_COMMIT_MESSAGE_PREFIX');
 
