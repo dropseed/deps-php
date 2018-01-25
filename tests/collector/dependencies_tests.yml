@@ -1,38 +1,40 @@
-name: collector-php-composer
-type: collector
-
 cases:
 - name: Basic test
+  type: collector
   dockerfile: Dockerfile
   repo_contents: tests/collector/repo_base
-  output_dependencies_json: tests/collector/dependencies.json
+  output_data_path: tests/collector/dependencies.json
   user_config:
     path: /
 
 - name: Subdirectory test
+  type: collector
   dockerfile: Dockerfile
   repo_contents: tests/collector/repo_with_subdirectory
-  output_dependencies_json: tests/collector/dependencies_subdirectory.json
+  output_data_path: tests/collector/dependencies_subdirectory.json
   user_config:
     path: app
 
 - name: Drupal composer test
+  type: collector
   dockerfile: Dockerfile
   repo_contents: tests/collector/repo_drupal
-  output_dependencies_json: tests/collector/dependencies_drupal.json
+  output_data_path: tests/collector/dependencies_drupal.json
   user_config:
     path: /
 
 - name: Basic test with no lockfile
+  type: collector
   dockerfile: Dockerfile
   repo_contents: tests/collector/repo_no_lockfile
-  output_dependencies_json: tests/collector/dependencies_with_no_lockfile.json
+  output_data_path: tests/collector/dependencies_with_no_lockfile.json
   user_config:
     path: /
 
 - name: Basic test with dev-master
+  type: collector
   dockerfile: Dockerfile
   repo_contents: tests/collector/repo_with_dev_master
-  output_dependencies_json: tests/collector/dependencies_with_dev_master.json
+  output_data_path: tests/collector/dependencies_with_dev_master.json
   user_config:
     path: /

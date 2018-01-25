@@ -17,8 +17,7 @@ if ($github_token) {
 if (getenv('RUN_AS') === 'collector') {
 
     echo "Running as collector\n";
-    $composer_dir = path_join('/repo', $argv[1]);
-    collect($composer_dir);
+    collect($argv[1]);
 
 } else if (getenv('RUN_AS') === 'actor') {
 
