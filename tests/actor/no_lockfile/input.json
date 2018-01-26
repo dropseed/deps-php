@@ -4,6 +4,7 @@
             "current": {
                 "dependencies": {
                     "monolog/monolog": {
+                        "constraint": "1.0.*",
                         "source": "packagist",
                         "installed": {
                             "name": "1.0.2"
@@ -21,9 +22,44 @@
                         ]
                     },
                     "ramsey/uuid": {
+                        "constraint": "3.6.0",
                         "source": "packagist",
                         "installed": {
                             "name": "3.6.0"
+                        },
+                        "available": [
+                            {
+                                "name": "3.6.1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "updated": {
+                "dependencies": {
+                    "monolog/monolog": {
+                        "constraint": "1.23.0",
+                        "source": "packagist",
+                        "installed": {
+                            "name": "1.23.0"
+                        },
+                        "available": [
+                            {
+                                "name": "1.23.0"
+                            },
+                            {
+                                "name": "1.22.1"
+                            },
+                            {
+                                "name": "1.22.0"
+                            }
+                        ]
+                    },
+                    "ramsey/uuid": {
+                        "constraint": "3.6.1",
+                        "source": "packagist",
+                        "installed": {
+                            "name": "3.6.1"
                         },
                         "available": [
                             {

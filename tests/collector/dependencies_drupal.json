@@ -1564,6 +1564,9 @@
               },
               {
                 "name": "dev-refactor/symfony-process"
+              },
+              {
+                "name": "dev-narkq-issue-2972"
               }
             ],
             "constraint": "3.7.*",
