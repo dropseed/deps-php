@@ -7,371 +7,371 @@
             "installed": {
               "name": "1.1.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "composer/semver": {
             "installed": {
               "name": "1.4.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/annotations": {
             "installed": {
               "name": "v1.2.7"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/cache": {
             "installed": {
               "name": "v1.6.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/collections": {
             "installed": {
               "name": "v1.4.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/common": {
             "installed": {
               "name": "v2.7.3"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/inflector": {
             "installed": {
               "name": "v1.1.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/lexer": {
             "installed": {
               "name": "v1.0.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "drupal/core": {
             "installed": {
               "name": "8.3.7"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "drupal/token": {
             "installed": {
               "name": "1.0.0"
             },
-            "relationship": "direct",
+            "is_transitive": false,
             "source": "packagist"
           },
           "easyrdf/easyrdf": {
             "installed": {
               "name": "0.9.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "egulias/email-validator": {
             "installed": {
               "name": "1.2.14"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "guzzlehttp/guzzle": {
             "installed": {
               "name": "6.3.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "guzzlehttp/promises": {
             "installed": {
               "name": "v1.3.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "guzzlehttp/psr7": {
             "installed": {
               "name": "1.4.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "ircmaxell/password-compat": {
             "installed": {
               "name": "v1.0.4"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "masterminds/html5": {
             "installed": {
               "name": "2.3.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "paragonie/random_compat": {
             "installed": {
               "name": "v2.0.11"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-code-coverage": {
             "installed": {
               "name": "1.2.18"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-file-iterator": {
             "installed": {
               "name": "1.4.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-text-template": {
             "installed": {
               "name": "1.2.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-timer": {
             "installed": {
               "name": "1.0.9"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-token-stream": {
             "installed": {
               "name": "1.2.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/phpunit": {
             "installed": {
               "name": "3.7.38"
             },
-            "relationship": "direct",
+            "is_transitive": false,
             "source": "packagist"
           },
           "phpunit/phpunit-mock-objects": {
             "installed": {
               "name": "1.2.3"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "psr/http-message": {
             "installed": {
               "name": "1.0.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "psr/log": {
             "installed": {
               "name": "1.0.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "stack/builder": {
             "installed": {
               "name": "v1.0.4"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony-cmf/routing": {
             "installed": {
               "name": "1.4.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/class-loader": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/console": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/debug": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/dependency-injection": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/event-dispatcher": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-foundation": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-kernel": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-apcu": {
             "installed": {
               "name": "v1.5.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-iconv": {
             "installed": {
               "name": "v1.5.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-mbstring": {
             "installed": {
               "name": "v1.5.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php54": {
             "installed": {
               "name": "v1.5.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php55": {
             "installed": {
               "name": "v1.5.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/process": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/psr-http-message-bridge": {
             "installed": {
               "name": "v1.0.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/routing": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/serializer": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/translation": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/validator": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
               "name": "v2.8.28"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "twig/twig": {
             "installed": {
               "name": "v1.35.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-diactoros": {
             "installed": {
               "name": "1.6.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-escaper": {
             "installed": {
               "name": "2.5.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-feed": {
             "installed": {
               "name": "2.8.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-stdlib": {
             "installed": {
               "name": "3.1.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           }
         },
@@ -383,375 +383,375 @@
             "installed": {
               "name": "1.2.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "composer/semver": {
             "installed": {
               "name": "1.4.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/annotations": {
             "installed": {
               "name": "v1.2.7"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/cache": {
             "installed": {
               "name": "v1.7.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/collections": {
             "installed": {
               "name": "v1.5.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/common": {
             "installed": {
               "name": "v2.8.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/inflector": {
             "installed": {
               "name": "v1.3.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "doctrine/lexer": {
             "installed": {
               "name": "v1.0.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "drupal/core": {
             "installed": {
               "name": "8.3.7"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "drupal/token": {
             "installed": {
               "name": "1.0.0"
             },
-            "relationship": "direct",
+            "is_transitive": false,
             "source": "packagist"
           },
           "easyrdf/easyrdf": {
             "installed": {
               "name": "0.9.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "egulias/email-validator": {
             "installed": {
               "name": "1.2.14"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "guzzlehttp/guzzle": {
             "installed": {
               "name": "6.3.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "guzzlehttp/promises": {
             "installed": {
               "name": "v1.3.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "guzzlehttp/psr7": {
             "installed": {
               "name": "1.4.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "ircmaxell/password-compat": {
             "installed": {
               "name": "v1.0.4"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "masterminds/html5": {
             "installed": {
               "name": "2.3.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "paragonie/random_compat": {
             "installed": {
               "name": "v2.0.11"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-code-coverage": {
             "installed": {
               "name": "1.2.18"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-file-iterator": {
             "installed": {
               "name": "1.4.5"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-text-template": {
             "installed": {
               "name": "1.2.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-timer": {
             "installed": {
               "name": "1.0.9"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-token-stream": {
             "installed": {
               "name": "1.2.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/phpunit": {
             "installed": {
               "name": "3.7.38"
             },
-            "relationship": "direct",
+            "is_transitive": false,
             "source": "packagist"
           },
           "phpunit/phpunit-mock-objects": {
             "installed": {
               "name": "1.2.3"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "psr/http-message": {
             "installed": {
               "name": "1.0.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "psr/log": {
             "installed": {
               "name": "1.0.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "stack/builder": {
             "installed": {
               "name": "v1.0.5"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony-cmf/routing": {
             "installed": {
               "name": "1.4.1"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/class-loader": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/console": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/debug": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/dependency-injection": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/event-dispatcher": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-foundation": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-kernel": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-apcu": {
             "installed": {
               "name": "v1.6.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-iconv": {
             "installed": {
               "name": "v1.6.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-mbstring": {
             "installed": {
               "name": "v1.6.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php54": {
             "installed": {
               "name": "v1.6.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php55": {
             "installed": {
               "name": "v1.6.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/process": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/psr-http-message-bridge": {
             "installed": {
               "name": "v1.0.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/routing": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/serializer": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/translation": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/validator": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.33"
+              "name": "v2.8.34"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "twig/twig": {
             "installed": {
               "name": "v1.35.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-diactoros": {
             "installed": {
               "name": "1.7.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-escaper": {
             "installed": {
               "name": "2.5.2"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-feed": {
             "installed": {
               "name": "2.9.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-stdlib": {
             "installed": {
               "name": "3.1.0"
             },
-            "relationship": "transitive",
+            "is_transitive": true,
             "source": "packagist"
           }
         },
-        "fingerprint": "32789aa66991c4f43219021d9c970cf6"
+        "fingerprint": "5b2cc6fb7c6dd61fc57a1858d4af7759"
       }
     }
   },
@@ -769,9 +769,6 @@
               }
             ],
             "constraint": "1.0.0",
-            "installed": {
-              "name": "1.0.0"
-            },
             "source": "packagist"
           },
           "phpunit/phpunit": {
@@ -1564,15 +1561,9 @@
               },
               {
                 "name": "dev-refactor/symfony-process"
-              },
-              {
-                "name": "dev-narkq-issue-2972"
               }
             ],
             "constraint": "3.7.*",
-            "installed": {
-              "name": "3.7.38"
-            },
             "source": "packagist"
           }
         }

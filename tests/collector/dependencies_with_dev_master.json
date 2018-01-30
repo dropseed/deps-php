@@ -7,7 +7,7 @@
             "installed": {
               "name": "dev-master"
             },
-            "relationship": "direct",
+            "is_transitive": false,
             "source": "packagist"
           }
         },
@@ -19,7 +19,7 @@
             "installed": {
               "name": "dev-master"
             },
-            "relationship": "direct",
+            "is_transitive": false,
             "source": "packagist"
           }
         },
@@ -38,9 +38,6 @@
               }
             ],
             "constraint": "dev-master",
-            "installed": {
-              "name": "dev-master"
-            },
             "source": "packagist"
           }
         }

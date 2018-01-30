@@ -13,7 +13,7 @@ RUN adduser -D -u 9000 app && \
 
 # add the pullrequest utility to easily create pull requests on different git hosts
 WORKDIR /usr/src/app
-ENV PULLREQUEST_VERSION=2.0.0-alpha.11
+ENV PULLREQUEST_VERSION=2.0.0-alpha.13
 RUN wget https://github.com/dependencies-io/pullrequest/releases/download/${PULLREQUEST_VERSION}/pullrequest_${PULLREQUEST_VERSION}_linux_amd64.tar.gz && \
     mkdir pullrequest && \
     tar -zxvf pullrequest_${PULLREQUEST_VERSION}_linux_amd64.tar.gz -C pullrequest && \

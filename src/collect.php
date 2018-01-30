@@ -92,7 +92,6 @@ function manifestSchemaFromLockfile($dependency_path) {
 
         $dependencies[$name] = array(
             'constraint' => $constraint,
-            'installed' => array('name' => $installed),
             'available' => $available,
             'source' => 'packagist'
         );
@@ -112,7 +111,7 @@ function lockfileSchemaFromLockfile($dependency_path) {
         $dependencies[$name] = array(
             'installed' => array('name' => $package['version']),
             // 'constraint' => 'get from all other requires and requires-dev?'
-            'relationship' => isset($all_requirements[$name]) ? 'direct' : 'transitive',
+            'is_transitive' => !isset($all_requirements[$name]),
             'source' => 'packagist'
         );
     }

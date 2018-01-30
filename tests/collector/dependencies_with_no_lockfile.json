@@ -112,9 +112,6 @@
               }
             ],
             "constraint": "1.0.*",
-            "installed": {
-              "name": "1.0.2"
-            },
             "source": "packagist"
           },
           "phpunit/phpunit": {
@@ -907,15 +904,9 @@
               },
               {
                 "name": "dev-refactor/symfony-process"
-              },
-              {
-                "name": "dev-narkq-issue-2972"
               }
             ],
             "constraint": "3.7.*",
-            "installed": {
-              "name": "3.7.38"
-            },
             "source": "packagist"
           }
         }
