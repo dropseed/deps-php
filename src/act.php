@@ -55,5 +55,8 @@ function act() {
     }
 
     pushGitBranch($branch_name);
-    runCommand("pullrequest --branch " . escapeshellarg($branch_name) . " --dependencies-json " . escapeshellarg(json_encode($data)));
+    $dependenciesFile = tmpfile();
+    fwrite($dependenciesFile, json_encode($data));
+    runCommand("pullrequest --branch " . escapeshellarg($branch_name) . " --dependencies-json " . escapeshellarg(stream_get_meta_data($dependenciesFile)["uri"]));
+    fclose($dependenciesFile);
 }
