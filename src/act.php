@@ -2,11 +2,8 @@
 
 function act() {
     $data = json_decode(file_get_contents('/dependencies/input_data.json'), true);
-    $job_id = getenv('JOB_ID');
-    $commit_message_prefix = getenv('SETTING_COMMIT_MESSAGE_PREFIX');
 
-    $branch_name = "deps/update-job-$job_id";
-    createGitBranch($branch_name);
+    runCommand("deps branch");
 
     if ($data['lockfiles']) {
         foreach ($data['lockfiles'] as $path => $lockfile) {
@@ -14,8 +11,7 @@ function act() {
             $dependency_path = dirname($lockfile_path);
             composerUpdate($dependency_path);
 
-            runCommand('git add .');
-            runCommand("git commit -m '${commit_message_prefix}Update $path'");
+            runCommand("deps commit -m 'Update $path' .");
 
             // set the updated data to exactly what we installed, regardless of what was asked for (could have changed)
             $data['lockfiles'][$path]['updated'] = lockfileSchemaFromLockfile($dependency_path);
@@ -47,16 +43,14 @@ function act() {
                     runCommand("rm $composer_lock_path");
                 }
 
-                runCommand("git add $composer_json_path");
-                $message = "{$commit_message_prefix}Update $name from $installed to $update";
-                runCommand("git commit -m '$message'");
+                $message = "Update $name from $installed to $update";
+                runCommand("deps commit -m '$message' $composer_json_path");
             }
         }
     }
 
-    pushGitBranch($branch_name);
     $dependenciesFile = tmpfile();
     fwrite($dependenciesFile, json_encode($data));
-    runCommand("pullrequest --branch " . escapeshellarg($branch_name) . " --dependencies-json " . escapeshellarg(stream_get_meta_data($dependenciesFile)["uri"]));
+    runCommand("deps pullrequest " . stream_get_meta_data($dependenciesFile)["uri"]);
     fclose($dependenciesFile);
 }

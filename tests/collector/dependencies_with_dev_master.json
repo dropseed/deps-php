@@ -6,27 +6,25 @@
           "jetbrains/phpstorm-stubs": {
             "installed": {
               "name": "dev-master"
-            },
-            "is_transitive": false,
+            }, 
             "source": "packagist"
           }
-        },
+        }, 
         "fingerprint": "acf2d805825a0c8559f58a5744122fa1"
-      },
+      }, 
       "updated": {
         "dependencies": {
           "jetbrains/phpstorm-stubs": {
             "installed": {
               "name": "dev-master"
-            },
-            "is_transitive": false,
+            }, 
             "source": "packagist"
           }
-        },
-        "fingerprint": "7923678ef45a7d067c9a55e44cd8b9f0"
+        }, 
+        "fingerprint": "7db461a0ef0acbeda7639421d3e6f318"
       }
     }
-  },
+  }, 
   "manifests": {
     "composer.json": {
       "current": {
@@ -36,13 +34,12 @@
               {
                 "name": "dev-pr/117"
               }
-            ],
-            "constraint": "dev-master",
+            ], 
+            "constraint": "dev-master", 
             "source": "packagist"
           }
         }
-      },
-      "lockfile_path": "composer.lock"
+      }
     }
   }
 }
