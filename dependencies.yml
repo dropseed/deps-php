@@ -3,3 +3,5 @@ collectors:
 - type: dependencies-component
 - type: php
   path: src
+- type: dockerfile
+  path: Dockerfile
