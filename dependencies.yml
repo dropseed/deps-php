@@ -1,5 +1,5 @@
 version: 2
-collectors:
+dependencies:
 - type: dependencies-component
 - type: php
   path: src
