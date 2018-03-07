@@ -17,21 +17,18 @@ function collect($dependency_path) {
         composerInstall($dependency_path);
     }
 
-    $composer_json_repo_path = pathInRepo($composer_json_path);
-
     $output = array(
         'manifests' => array(
-            $composer_json_repo_path => manifestSchemaFromLockfile($dependency_path)
+            $composer_json_path => manifestSchemaFromLockfile($dependency_path)
         )
     );
 
     // if lockfile existed originally, add that to output
     if ($composer_lock_existed) {
         $original_schema = lockfileSchemaFromLockfile($dependency_path);
-        $lockfile_repo_path = pathInRepo($composer_lock_path);
 
         $output['lockfiles'] = array(
-            $lockfile_repo_path => array(
+            $composer_lock_path => array(
                 'current' => $original_schema
             )
         );
@@ -42,15 +39,17 @@ function collect($dependency_path) {
 
         // only include in output if the file actually changed
         if ($updated_schema['fingerprint'] !== $original_schema['fingerprint']) {
-            $output['lockfiles'][$lockfile_repo_path]['updated'] = $updated_schema;
+            $output['lockfiles'][$composer_lock_path]['updated'] = $updated_schema;
         }
 
         // point the manifest entry to this lockfile
-        $output['manifests'][$composer_json_repo_path]['lockfile_path'] = $lockfile_repo_path;
+        $output['manifests'][$composer_json_path]['lockfile_path'] = $composer_lock_path;
     }
 
-    $json = json_encode($output);
-    echo "<Dependencies>$json</Dependencies>";
+    $f = tmpfile();
+    fwrite($f, json_encode($output));
+    runCommand("deps collect " . stream_get_meta_data($f)["uri"]);
+    fclose($f);
 }
 
 function manifestSchemaFromLockfile($dependency_path) {
@@ -92,7 +91,6 @@ function manifestSchemaFromLockfile($dependency_path) {
 
         $dependencies[$name] = array(
             'constraint' => $constraint,
-            'installed' => array('name' => $installed),
             'available' => $available,
             'source' => 'packagist'
         );
@@ -112,7 +110,7 @@ function lockfileSchemaFromLockfile($dependency_path) {
         $dependencies[$name] = array(
             'installed' => array('name' => $package['version']),
             // 'constraint' => 'get from all other requires and requires-dev?'
-            'relationship' => isset($all_requirements[$name]) ? 'direct' : 'transitive',
+            'is_transitive' => !isset($all_requirements[$name]),
             'source' => 'packagist'
         );
     }

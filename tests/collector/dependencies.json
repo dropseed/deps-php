@@ -6,139 +6,135 @@
           "monolog/monolog": {
             "installed": {
               "name": "1.0.2"
-            },
-            "relationship": "direct",
+            }, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-code-coverage": {
             "installed": {
               "name": "1.2.18"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-file-iterator": {
             "installed": {
               "name": "1.4.2"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-text-template": {
             "installed": {
               "name": "1.2.1"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-timer": {
             "installed": {
               "name": "1.0.9"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-token-stream": {
             "installed": {
               "name": "1.2.2"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/phpunit": {
             "installed": {
               "name": "3.7.38"
-            },
-            "relationship": "direct",
+            }, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/phpunit-mock-objects": {
             "installed": {
               "name": "1.2.3"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "symfony/yaml": {
             "installed": {
               "name": "v2.8.26"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
           }
-        },
+        }, 
         "fingerprint": "72d521dbf44b2dbcabb182a7887143a6"
-      },
+      }, 
       "updated": {
         "dependencies": {
           "monolog/monolog": {
             "installed": {
               "name": "1.0.2"
-            },
-            "relationship": "direct",
+            }, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-code-coverage": {
             "installed": {
               "name": "1.2.18"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-file-iterator": {
             "installed": {
               "name": "1.4.5"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-text-template": {
             "installed": {
               "name": "1.2.1"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-timer": {
             "installed": {
               "name": "1.0.9"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/php-token-stream": {
             "installed": {
               "name": "1.2.2"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/phpunit": {
             "installed": {
               "name": "3.7.38"
-            },
-            "relationship": "direct",
+            }, 
             "source": "packagist"
-          },
+          }, 
           "phpunit/phpunit-mock-objects": {
             "installed": {
               "name": "1.2.3"
-            },
-            "relationship": "transitive",
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
-          },
+          }, 
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.33"
-            },
-            "relationship": "transitive",
+              "name": "v2.8.34"
+            }, 
+            "is_transitive": true, 
             "source": "packagist"
           }
-        },
-        "fingerprint": "063cc108ba8365adf6b4c8f1b6c85a1d"
+        }, 
+        "fingerprint": "92323f79394d2b04c0117acece5b0ad4"
       }
     }
-  },
+  }, 
   "manifests": {
     "composer.json": {
       "current": {
@@ -147,917 +143,931 @@
             "available": [
               {
                 "name": "dev-master"
-              },
+              }, 
               {
                 "name": "2.0.x-dev"
-              },
+              }, 
               {
                 "name": "1.23.0"
-              },
+              }, 
               {
                 "name": "1.22.1"
-              },
+              }, 
               {
                 "name": "1.22.0"
-              },
+              }, 
               {
                 "name": "1.21.0"
-              },
+              }, 
               {
                 "name": "1.20.0"
-              },
+              }, 
               {
                 "name": "1.19.0"
-              },
+              }, 
               {
                 "name": "1.18.2"
-              },
+              }, 
               {
                 "name": "1.18.1"
-              },
+              }, 
               {
                 "name": "1.18.0"
-              },
+              }, 
               {
                 "name": "1.17.2"
-              },
+              }, 
               {
                 "name": "1.17.1"
-              },
+              }, 
               {
                 "name": "1.17.0"
-              },
+              }, 
               {
                 "name": "1.16.0"
-              },
+              }, 
               {
                 "name": "1.15.0"
-              },
+              }, 
               {
                 "name": "1.14.0"
-              },
+              }, 
               {
                 "name": "1.13.1"
-              },
+              }, 
               {
                 "name": "1.13.0"
-              },
+              }, 
               {
                 "name": "1.12.0"
-              },
+              }, 
               {
                 "name": "1.11.0"
-              },
+              }, 
               {
                 "name": "1.10.0"
-              },
+              }, 
               {
                 "name": "1.9.1"
-              },
+              }, 
               {
                 "name": "1.9.0"
-              },
+              }, 
               {
                 "name": "1.8.0"
-              },
+              }, 
               {
                 "name": "1.7.0"
-              },
+              }, 
               {
                 "name": "1.6.0"
-              },
+              }, 
               {
                 "name": "1.5.0"
-              },
+              }, 
               {
                 "name": "1.4.1"
-              },
+              }, 
               {
                 "name": "1.4.0"
-              },
+              }, 
               {
                 "name": "1.3.1"
-              },
+              }, 
               {
                 "name": "1.3.0"
-              },
+              }, 
               {
                 "name": "1.2.1"
-              },
+              }, 
               {
                 "name": "1.2.0"
-              },
+              }, 
               {
                 "name": "1.1.0"
               }
-            ],
-            "constraint": "1.0.*",
-            "installed": {
-              "name": "1.0.2"
-            },
+            ], 
+            "constraint": "1.0.*", 
             "source": "packagist"
-          },
+          }, 
           "phpunit/phpunit": {
             "available": [
               {
                 "name": "dev-master"
-              },
+              }, 
+              {
+                "name": "7.1.x-dev"
+              }, 
               {
                 "name": "7.0.x-dev"
-              },
+              }, 
+              {
+                "name": "7.0.1"
+              }, 
+              {
+                "name": "7.0.0"
+              }, 
               {
                 "name": "6.5.x-dev"
-              },
+              }, 
+              {
+                "name": "6.5.6"
+              }, 
               {
                 "name": "6.5.5"
-              },
+              }, 
               {
                 "name": "6.5.4"
-              },
+              }, 
               {
                 "name": "6.5.3"
-              },
+              }, 
               {
                 "name": "6.5.2"
-              },
+              }, 
               {
                 "name": "6.5.1"
-              },
+              }, 
               {
                 "name": "6.5.0"
-              },
+              }, 
               {
                 "name": "6.4.x-dev"
-              },
+              }, 
               {
                 "name": "6.4.4"
-              },
+              }, 
               {
                 "name": "6.4.3"
-              },
+              }, 
               {
                 "name": "6.4.2"
-              },
+              }, 
               {
                 "name": "6.4.1"
-              },
+              }, 
               {
                 "name": "6.4.0"
-              },
+              }, 
               {
                 "name": "6.3.x-dev"
-              },
+              }, 
               {
                 "name": "6.3.1"
-              },
+              }, 
               {
                 "name": "6.3.0"
-              },
+              }, 
               {
                 "name": "6.2.x-dev"
-              },
+              }, 
               {
                 "name": "6.2.4"
-              },
+              }, 
               {
                 "name": "6.2.3"
-              },
+              }, 
               {
                 "name": "6.2.2"
-              },
+              }, 
               {
                 "name": "6.2.1"
-              },
+              }, 
               {
                 "name": "6.2.0"
-              },
+              }, 
               {
                 "name": "6.1.x-dev"
-              },
+              }, 
               {
                 "name": "6.1.4"
-              },
+              }, 
               {
                 "name": "6.1.3"
-              },
+              }, 
               {
                 "name": "6.1.2"
-              },
+              }, 
               {
                 "name": "6.1.1"
-              },
+              }, 
               {
                 "name": "6.1.0"
-              },
+              }, 
               {
                 "name": "6.0.x-dev"
-              },
+              }, 
               {
                 "name": "6.0.13"
-              },
+              }, 
               {
                 "name": "6.0.12"
-              },
+              }, 
               {
                 "name": "6.0.11"
-              },
+              }, 
               {
                 "name": "6.0.10"
-              },
+              }, 
               {
                 "name": "6.0.9"
-              },
+              }, 
               {
                 "name": "6.0.8"
-              },
+              }, 
               {
                 "name": "6.0.7"
-              },
+              }, 
               {
                 "name": "6.0.6"
-              },
+              }, 
               {
                 "name": "6.0.5"
-              },
+              }, 
               {
                 "name": "6.0.4"
-              },
+              }, 
               {
                 "name": "6.0.3"
-              },
+              }, 
               {
                 "name": "6.0.2"
-              },
+              }, 
               {
                 "name": "6.0.1"
-              },
+              }, 
               {
                 "name": "6.0.0"
-              },
+              }, 
               {
                 "name": "5.7.x-dev"
-              },
+              }, 
+              {
+                "name": "5.7.27"
+              }, 
               {
                 "name": "5.7.26"
-              },
+              }, 
               {
                 "name": "5.7.25"
-              },
+              }, 
               {
                 "name": "5.7.24"
-              },
+              }, 
               {
                 "name": "5.7.23"
-              },
+              }, 
               {
                 "name": "5.7.22"
-              },
+              }, 
               {
                 "name": "5.7.21"
-              },
+              }, 
               {
                 "name": "5.7.20"
-              },
+              }, 
               {
                 "name": "5.7.19"
-              },
+              }, 
               {
                 "name": "5.7.18"
-              },
+              }, 
               {
                 "name": "5.7.17"
-              },
+              }, 
               {
                 "name": "5.7.16"
-              },
+              }, 
               {
                 "name": "5.7.15"
-              },
+              }, 
               {
                 "name": "5.7.14"
-              },
+              }, 
               {
                 "name": "5.7.13"
-              },
+              }, 
               {
                 "name": "5.7.12"
-              },
+              }, 
               {
                 "name": "5.7.11"
-              },
+              }, 
               {
                 "name": "5.7.10"
-              },
+              }, 
               {
                 "name": "5.7.9"
-              },
+              }, 
               {
                 "name": "5.7.8"
-              },
+              }, 
               {
                 "name": "5.7.7"
-              },
+              }, 
               {
                 "name": "5.7.6"
-              },
+              }, 
               {
                 "name": "5.7.5"
-              },
+              }, 
               {
                 "name": "5.7.4"
-              },
+              }, 
               {
                 "name": "5.7.3"
-              },
+              }, 
               {
                 "name": "5.7.2"
-              },
+              }, 
               {
                 "name": "5.7.1"
-              },
+              }, 
               {
                 "name": "5.7.0"
-              },
+              }, 
               {
                 "name": "5.6.x-dev"
-              },
+              }, 
               {
                 "name": "5.6.8"
-              },
+              }, 
               {
                 "name": "5.6.7"
-              },
+              }, 
               {
                 "name": "5.6.6"
-              },
+              }, 
               {
                 "name": "5.6.5"
-              },
+              }, 
               {
                 "name": "5.6.4"
-              },
+              }, 
               {
                 "name": "5.6.3"
-              },
+              }, 
               {
                 "name": "5.6.2"
-              },
+              }, 
               {
                 "name": "5.6.1"
-              },
+              }, 
               {
                 "name": "5.6.0"
-              },
+              }, 
               {
                 "name": "5.5.x-dev"
-              },
+              }, 
               {
                 "name": "5.5.7"
-              },
+              }, 
               {
                 "name": "5.5.6"
-              },
+              }, 
               {
                 "name": "5.5.5"
-              },
+              }, 
               {
                 "name": "5.5.4"
-              },
+              }, 
               {
                 "name": "5.5.3"
-              },
+              }, 
               {
                 "name": "5.5.2"
-              },
+              }, 
               {
                 "name": "5.5.1"
-              },
+              }, 
               {
                 "name": "5.5.0"
-              },
+              }, 
               {
                 "name": "5.4.x-dev"
-              },
+              }, 
               {
                 "name": "5.4.8"
-              },
+              }, 
               {
                 "name": "5.4.7"
-              },
+              }, 
               {
                 "name": "5.4.6"
-              },
+              }, 
               {
                 "name": "5.4.5"
-              },
+              }, 
               {
                 "name": "5.4.4"
-              },
+              }, 
               {
                 "name": "5.4.3"
-              },
+              }, 
               {
                 "name": "5.4.2"
-              },
+              }, 
               {
                 "name": "5.4.1"
-              },
+              }, 
               {
                 "name": "5.4.0"
-              },
+              }, 
               {
                 "name": "5.3.x-dev"
-              },
+              }, 
               {
                 "name": "5.3.5"
-              },
+              }, 
               {
                 "name": "5.3.4"
-              },
+              }, 
               {
                 "name": "5.3.3"
-              },
+              }, 
               {
                 "name": "5.3.2"
-              },
+              }, 
               {
                 "name": "5.3.1"
-              },
+              }, 
               {
                 "name": "5.3.0"
-              },
+              }, 
               {
                 "name": "5.2.x-dev"
-              },
+              }, 
               {
                 "name": "5.2.12"
-              },
+              }, 
               {
                 "name": "5.2.11"
-              },
+              }, 
               {
                 "name": "5.2.10"
-              },
+              }, 
               {
                 "name": "5.2.9"
-              },
+              }, 
               {
                 "name": "5.2.8"
-              },
+              }, 
               {
                 "name": "5.2.7"
-              },
+              }, 
               {
                 "name": "5.2.6"
-              },
+              }, 
               {
                 "name": "5.2.5"
-              },
+              }, 
               {
                 "name": "5.2.4"
-              },
+              }, 
               {
                 "name": "5.2.3"
-              },
+              }, 
               {
                 "name": "5.2.2"
-              },
+              }, 
               {
                 "name": "5.2.1"
-              },
+              }, 
               {
                 "name": "5.2.0"
-              },
+              }, 
               {
                 "name": "5.1.x-dev"
-              },
+              }, 
               {
                 "name": "5.1.7"
-              },
+              }, 
               {
                 "name": "5.1.6"
-              },
+              }, 
               {
                 "name": "5.1.5"
-              },
+              }, 
               {
                 "name": "5.1.4"
-              },
+              }, 
               {
                 "name": "5.1.3"
-              },
+              }, 
               {
                 "name": "5.1.2"
-              },
+              }, 
               {
                 "name": "5.1.1"
-              },
+              }, 
               {
                 "name": "5.1.0"
-              },
+              }, 
               {
                 "name": "5.0.x-dev"
-              },
+              }, 
               {
                 "name": "5.0.10"
-              },
+              }, 
               {
                 "name": "5.0.9"
-              },
+              }, 
               {
                 "name": "5.0.8"
-              },
+              }, 
               {
                 "name": "5.0.7"
-              },
+              }, 
               {
                 "name": "5.0.6"
-              },
+              }, 
               {
                 "name": "5.0.5"
-              },
+              }, 
               {
                 "name": "5.0.4"
-              },
+              }, 
               {
                 "name": "5.0.3"
-              },
+              }, 
               {
                 "name": "5.0.2"
-              },
+              }, 
               {
                 "name": "5.0.1"
-              },
+              }, 
               {
                 "name": "5.0.0"
-              },
+              }, 
               {
                 "name": "4.8.x-dev"
-              },
+              }, 
               {
                 "name": "4.8.36"
-              },
+              }, 
               {
                 "name": "4.8.35"
-              },
+              }, 
               {
                 "name": "4.8.34"
-              },
+              }, 
               {
                 "name": "4.8.33"
-              },
+              }, 
               {
                 "name": "4.8.32"
-              },
+              }, 
               {
                 "name": "4.8.31"
-              },
+              }, 
               {
                 "name": "4.8.30"
-              },
+              }, 
               {
                 "name": "4.8.29"
-              },
+              }, 
               {
                 "name": "4.8.28"
-              },
+              }, 
               {
                 "name": "4.8.27"
-              },
+              }, 
               {
                 "name": "4.8.26"
-              },
+              }, 
               {
                 "name": "4.8.25"
-              },
+              }, 
               {
                 "name": "4.8.24"
-              },
+              }, 
               {
                 "name": "4.8.23"
-              },
+              }, 
               {
                 "name": "4.8.22"
-              },
+              }, 
               {
                 "name": "4.8.21"
-              },
+              }, 
               {
                 "name": "4.8.20"
-              },
+              }, 
               {
                 "name": "4.8.19"
-              },
+              }, 
               {
                 "name": "4.8.18"
-              },
+              }, 
               {
                 "name": "4.8.17"
-              },
+              }, 
               {
                 "name": "4.8.16"
-              },
+              }, 
               {
                 "name": "4.8.15"
-              },
+              }, 
               {
                 "name": "4.8.14"
-              },
+              }, 
               {
                 "name": "4.8.13"
-              },
+              }, 
               {
                 "name": "4.8.12"
-              },
+              }, 
               {
                 "name": "4.8.11"
-              },
+              }, 
               {
                 "name": "4.8.10"
-              },
+              }, 
               {
                 "name": "4.8.9"
-              },
+              }, 
               {
                 "name": "4.8.8"
-              },
+              }, 
               {
                 "name": "4.8.7"
-              },
+              }, 
               {
                 "name": "4.8.6"
-              },
+              }, 
               {
                 "name": "4.8.5"
-              },
+              }, 
               {
                 "name": "4.8.4"
-              },
+              }, 
               {
                 "name": "4.8.3"
-              },
+              }, 
               {
                 "name": "4.8.2"
-              },
+              }, 
               {
                 "name": "4.8.1"
-              },
+              }, 
               {
                 "name": "4.8.0"
-              },
+              }, 
               {
                 "name": "4.7.x-dev"
-              },
+              }, 
               {
                 "name": "4.7.7"
-              },
+              }, 
               {
                 "name": "4.7.6"
-              },
+              }, 
               {
                 "name": "4.7.5"
-              },
+              }, 
               {
                 "name": "4.7.4"
-              },
+              }, 
               {
                 "name": "4.7.3"
-              },
+              }, 
               {
                 "name": "4.7.2"
-              },
+              }, 
               {
                 "name": "4.7.1"
-              },
+              }, 
               {
                 "name": "4.7.0"
-              },
+              }, 
               {
                 "name": "4.6.x-dev"
-              },
+              }, 
               {
                 "name": "4.6.10"
-              },
+              }, 
               {
                 "name": "4.6.9"
-              },
+              }, 
               {
                 "name": "4.6.8"
-              },
+              }, 
               {
                 "name": "4.6.7"
-              },
+              }, 
               {
                 "name": "4.6.6"
-              },
+              }, 
               {
                 "name": "4.6.5"
-              },
+              }, 
               {
                 "name": "4.6.4"
-              },
+              }, 
               {
                 "name": "4.6.3"
-              },
+              }, 
               {
                 "name": "4.6.2"
-              },
+              }, 
               {
                 "name": "4.6.1"
-              },
+              }, 
               {
                 "name": "4.6.0"
-              },
+              }, 
               {
                 "name": "4.5.x-dev"
-              },
+              }, 
               {
                 "name": "4.5.1"
-              },
+              }, 
               {
                 "name": "4.5.0"
-              },
+              }, 
               {
                 "name": "4.4.x-dev"
-              },
+              }, 
               {
                 "name": "4.4.5"
-              },
+              }, 
               {
                 "name": "4.4.4"
-              },
+              }, 
               {
                 "name": "4.4.3"
-              },
+              }, 
               {
                 "name": "4.4.2"
-              },
+              }, 
               {
                 "name": "4.4.1"
-              },
+              }, 
               {
                 "name": "4.4.0"
-              },
+              }, 
               {
                 "name": "4.3.x-dev"
-              },
+              }, 
               {
                 "name": "4.3.5"
-              },
+              }, 
               {
                 "name": "4.3.4"
-              },
+              }, 
               {
                 "name": "4.3.3"
-              },
+              }, 
               {
                 "name": "4.3.2"
-              },
+              }, 
               {
                 "name": "4.3.1"
-              },
+              }, 
               {
                 "name": "4.3.0"
-              },
+              }, 
               {
                 "name": "4.2.x-dev"
-              },
+              }, 
               {
                 "name": "4.2.6"
-              },
+              }, 
               {
                 "name": "4.2.5"
-              },
+              }, 
               {
                 "name": "4.2.4"
-              },
+              }, 
               {
                 "name": "4.2.3"
-              },
+              }, 
               {
                 "name": "4.2.2"
-              },
+              }, 
               {
                 "name": "4.2.1"
-              },
+              }, 
               {
                 "name": "4.2.0"
-              },
+              }, 
               {
                 "name": "4.1.x-dev"
-              },
+              }, 
               {
                 "name": "4.1.6"
-              },
+              }, 
               {
                 "name": "4.1.5"
-              },
+              }, 
               {
                 "name": "4.1.4"
-              },
+              }, 
               {
                 "name": "4.1.3"
-              },
+              }, 
               {
                 "name": "4.1.2"
-              },
+              }, 
               {
                 "name": "4.1.1"
-              },
+              }, 
               {
                 "name": "4.1.0"
-              },
+              }, 
               {
                 "name": "4.0.x-dev"
-              },
+              }, 
               {
                 "name": "4.0.20"
-              },
+              }, 
               {
                 "name": "4.0.19"
-              },
+              }, 
               {
                 "name": "4.0.18"
-              },
+              }, 
               {
                 "name": "4.0.17"
-              },
+              }, 
               {
                 "name": "4.0.16"
-              },
+              }, 
               {
                 "name": "4.0.15"
-              },
+              }, 
               {
                 "name": "4.0.14"
-              },
+              }, 
               {
                 "name": "4.0.13"
-              },
+              }, 
               {
                 "name": "4.0.12"
-              },
+              }, 
               {
                 "name": "4.0.11"
-              },
+              }, 
               {
                 "name": "4.0.10"
-              },
+              }, 
               {
                 "name": "4.0.9"
-              },
+              }, 
               {
                 "name": "4.0.8"
-              },
+              }, 
               {
                 "name": "4.0.7"
-              },
+              }, 
               {
                 "name": "4.0.6"
-              },
+              }, 
               {
                 "name": "4.0.5"
-              },
+              }, 
               {
                 "name": "4.0.4"
-              },
+              }, 
               {
                 "name": "4.0.3"
-              },
+              }, 
               {
                 "name": "4.0.2"
-              },
+              }, 
               {
                 "name": "4.0.1"
-              },
+              }, 
               {
                 "name": "4.0.0"
-              },
+              }, 
+              {
+                "name": "dev-travis-php-cs-fixer"
+              }, 
+              {
+                "name": "dev-issue-3002/before-first-test-after-last-test-hooks"
+              }, 
               {
                 "name": "dev-issue-2153/test-listeners-and-warnings"
-              },
+              }, 
               {
                 "name": "dev-issue-2145/stop-on-failure-fails-to-stop"
-              },
+              }, 
               {
                 "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
-              },
+              }, 
               {
                 "name": "dev-issue-2015/prefixed-phar"
-              },
+              }, 
               {
                 "name": "dev-refactor/symfony-process"
               }
-            ],
-            "constraint": "3.7.*",
-            "installed": {
-              "name": "3.7.38"
-            },
+            ], 
+            "constraint": "3.7.*", 
             "source": "packagist"
           }
         }
-      },
-      "lockfile_path": "composer.lock"
+      }
     }
   }
 }

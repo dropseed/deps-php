@@ -1,13 +1,7 @@
-collectors:
-
-- type: php-composer
-  path: /
-  actors:
-  - type: php-composer
-    versions: Y.Y.Y
-
-- type: python-pip
-  path: requirements_test.txt
-  actors:
-  - type: python-pip
-    versions: "Y.Y.Y"
+version: 2
+dependencies:
+- type: dependencies-component
+- type: php
+  path: src
+- type: dockerfile
+  path: Dockerfile

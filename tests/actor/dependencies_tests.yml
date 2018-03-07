@@ -1,18 +1,17 @@
-name: actor-php-composer
-type: actor
-
 cases:
 - name: Basic lockfile test
+  type: actor
   dockerfile: Dockerfile
   repo_contents: tests/actor/basic/repo_base
-  input_dependencies_json: tests/actor/basic/input.json
-  output_dependencies_json: tests/actor/basic/output.json
+  input_data_path: tests/actor/basic/input.json
+  output_data_path: tests/actor/basic/output.json
 
 - name: Subdirectory test
+  type: actor
   dockerfile: Dockerfile
   repo_contents: tests/actor/subdirectory/repo_base
-  input_dependencies_json: tests/actor/subdirectory/input.json
-  output_dependencies_json: tests/actor/subdirectory/output.json
+  input_data_path: tests/actor/subdirectory/input.json
+  output_data_path: tests/actor/subdirectory/output.json
   # tests:
   #   - |
   #       git checkout monolog/monolog-1.23.0-0 && \
@@ -26,10 +25,11 @@ cases:
       - testing
 
 - name: No composer.lock test
+  type: actor
   dockerfile: Dockerfile
   repo_contents: tests/actor/no_lockfile/repo_base
-  input_dependencies_json: tests/actor/no_lockfile/input.json
-  output_dependencies_json: tests/actor/no_lockfile/output.json
+  input_data_path: tests/actor/no_lockfile/input.json
+  output_data_path: tests/actor/no_lockfile/output.json
   # tests:
   #   - |
   #       git checkout monolog/monolog-1.23.0-0 && \
