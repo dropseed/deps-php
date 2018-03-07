@@ -7,7 +7,7 @@ function act() {
 
     if ($data['lockfiles']) {
         foreach ($data['lockfiles'] as $path => $lockfile) {
-            $lockfile_path = path_join('/repo', $path);
+            $lockfile_path = realpath($path);
             $dependency_path = dirname($lockfile_path);
             composerUpdate($dependency_path);
 
@@ -20,7 +20,7 @@ function act() {
 
     if ($data['manifests']) {
         foreach ($data['manifests'] as $path => $manifest) {
-            $composer_json_path = path_join('/repo', $path);
+            $composer_json_path = realpath($path);
             $dependency_path = dirname($composer_json_path);
             $composer_lock_path = composerLockPath($dependency_path);
             $composer_lock_existed = file_exists($composer_lock_path);

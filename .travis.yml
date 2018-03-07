@@ -6,6 +6,12 @@ language: python
 python: 3.6
 cache: pip
 
-install: pip install dependencies-cli==2.0.0
+# split them up to speed up the tests
+env:
+  matrix:
+  - TEST_TYPE=collector
+  - TEST_TYPE=actor
 
-script: dependencies test
+install: pip install dependencies-cli==2.2.2
+
+script: dependencies test -k $TEST_TYPE --loose-output-data-comparison
