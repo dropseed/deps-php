@@ -133,13 +133,13 @@ function getAvailableVersionsForPackage($name, $dependency_path) {
     if (count($matches) > 1) {
         $versions_string = $matches[1];
         $versions = explode(', ', $versions_string);
-        return array_map(function ($version) {
+        return array_reverse(array_map(function ($version) {
             // the currently installed version has an * in front
             if (substr($version, 0, 2) === "* ") {
                 return substr($version, 2);
             }
             return $version;
-        }, $versions);
+        }, $versions));
     }
     echo "No available versions found for \"$name\", skipping\n";
     return array();
