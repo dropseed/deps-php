@@ -12,6 +12,6 @@ env:
   - TEST_TYPE=collector
   - TEST_TYPE=actor
 
-install: pip install dependencies-cli==2.2.2
+install: pip install dependencies-cli==2.2.3
 
 script: dependencies test -k $TEST_TYPE --loose-output-data-comparison
