@@ -6,25 +6,25 @@
           "jetbrains/phpstorm-stubs": {
             "installed": {
               "name": "dev-master"
-            }, 
+            },
             "source": "packagist"
           }
-        }, 
+        },
         "fingerprint": "acf2d805825a0c8559f58a5744122fa1"
-      }, 
+      },
       "updated": {
         "dependencies": {
           "jetbrains/phpstorm-stubs": {
             "installed": {
               "name": "dev-master"
-            }, 
+            },
             "source": "packagist"
           }
-        }, 
+        },
         "fingerprint": "7db461a0ef0acbeda7639421d3e6f318"
       }
     }
-  }, 
+  },
   "manifests": {
     "composer.json": {
       "current": {
@@ -34,8 +34,8 @@
               {
                 "name": "dev-pr/117"
               }
-            ], 
-            "constraint": "dev-master", 
+            ],
+            "constraint": "dev-master",
             "source": "packagist"
           }
         }
