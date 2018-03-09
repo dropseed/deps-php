@@ -758,10 +758,10 @@
           "drupal/token": {
             "available": [
               {
-                "name": "dev-1.x"
+                "name": "1.1.0"
               },
               {
-                "name": "1.1.0"
+                "name": "dev-1.x"
               }
             ],
             "constraint": "1.0.0",
@@ -769,27 +769,6 @@
           },
           "phpunit/phpunit": {
             "available": [
-              {
-                "name": "dev-refactor/symfony-process"
-              },
-              {
-                "name": "dev-issue-2015/prefixed-phar"
-              },
-              {
-                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
-              },
-              {
-                "name": "dev-issue-2145/stop-on-failure-fails-to-stop"
-              },
-              {
-                "name": "dev-issue-2153/test-listeners-and-warnings"
-              },
-              {
-                "name": "dev-issue-3002/before-first-test-after-last-test-hooks"
-              },
-              {
-                "name": "4.0.0"
-              },
               {
                 "name": "4.0.1"
               },
@@ -807,6 +786,21 @@
               },
               {
                 "name": "4.0.6"
+              },
+              {
+                "name": "dev-issue-3002/before-first-test-after-last-test-hooks"
+              },
+              {
+                "name": "4.0.0"
+              },
+              {
+                "name": "dev-issue-2153/test-listeners-and-warnings"
+              },
+              {
+                "name": "dev-issue-2145/stop-on-failure-fails-to-stop"
+              },
+              {
+                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
               },
               {
                 "name": "4.0.7"
@@ -1559,6 +1553,9 @@
                 "name": "6.5.6"
               },
               {
+                "name": "dev-issue-2015/prefixed-phar"
+              },
+              {
                 "name": "6.5.7"
               },
               {
@@ -1581,6 +1578,9 @@
               },
               {
                 "name": "dev-master"
+              },
+              {
+                "name": "dev-refactor/symfony-process"
               }
             ],
             "constraint": "3.7.*",

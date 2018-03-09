@@ -74,6 +74,8 @@ function manifestSchemaFromLockfile($dependency_path) {
 
         $versions = array_values($versions);
 
+        $versions = Semver::sort($versions);
+
         return $versions;
     };
 
