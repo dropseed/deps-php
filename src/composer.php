@@ -1,17 +1,21 @@
 <?php
 
-const COMPOSER_OPTIONS = "--ignore-platform-reqs --no-scripts --no-progress --no-suggest";
+function getComposerOptions() {
+    $from_settings = getenv('SETTING_COMPOSER_OPTIONS');
+    if ($from_settings) return $from_settings;
+    return "--ignore-platform-reqs --no-scripts --no-progress --no-suggest";
+}
 
 function composerInstall($dependency_path) {
-    runCommand("cd $dependency_path && composer install --no-autoloader " . COMPOSER_OPTIONS);
+    runCommand("cd $dependency_path && composer install " . getComposerOptions());
 }
 
 function composerUpdate($dependency_path) {
-    runCommand("cd $dependency_path && composer update --no-autoloader " . COMPOSER_OPTIONS);
+    runCommand("cd $dependency_path && composer update " . getComposerOptions());
 }
 
 function composerRequire($dependency_path, $args) {
-    runCommand("cd $dependency_path && composer require $args " . COMPOSER_OPTIONS);
+    runCommand("cd $dependency_path && composer require $args " . getComposerOptions());
 }
 
 function composerJsonPath($dependency_path) {
