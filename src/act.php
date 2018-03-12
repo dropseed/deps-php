@@ -37,14 +37,12 @@ function act() {
                     composerRequire($dependency_path, "$name:$update");
                 }
 
-                if ($composer_lock_existed) {
-                    runCommand("git add $composer_lock_path");
-                } else {
+                if (!$composer_lock_existed) {
                     runCommand("rm $composer_lock_path");
                 }
 
                 $message = "Update $name from $installed to $update";
-                runCommand("deps commit -m '$message' $composer_json_path");
+                runCommand("deps commit -m '$message' .");
             }
         }
     }
