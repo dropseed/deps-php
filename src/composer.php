@@ -3,7 +3,7 @@
 function getComposerOptions() {
     $from_settings = getenv('SETTING_COMPOSER_OPTIONS');
     if ($from_settings) return $from_settings;
-    return "--ignore-platform-reqs --no-scripts --no-progress --no-suggest";
+    return "--no-progress --no-suggest";
 }
 
 function composerInstall($dependency_path) {
