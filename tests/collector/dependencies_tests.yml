@@ -6,6 +6,8 @@ cases:
   output_data_path: tests/collector/dependencies.json
   user_config:
     path: /
+    settings:
+      composer_options: "--ignore-platform-reqs"
 
 - name: Subdirectory test
   type: collector
@@ -14,6 +16,8 @@ cases:
   output_data_path: tests/collector/dependencies_subdirectory.json
   user_config:
     path: app
+    settings:
+      composer_options: "--ignore-platform-reqs"
 
 - name: Drupal composer test
   type: collector
@@ -30,6 +34,8 @@ cases:
   output_data_path: tests/collector/dependencies_with_no_lockfile.json
   user_config:
     path: /
+    settings:
+      composer_options: "--ignore-platform-reqs"
 
 - name: Basic test with dev-master
   type: collector

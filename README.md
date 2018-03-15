@@ -10,6 +10,9 @@ version: 2
 dependencies:
 - type: php
   path: /
+  settings:
+    # options for composer install/update/require
+    composer_options: "--ignore-platform-reqs"
 ```
 
 There are also [additional settings available](https://github.com/dependencies-io/deps#dependenciesyml) for
