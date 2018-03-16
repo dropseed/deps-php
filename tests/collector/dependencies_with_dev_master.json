@@ -21,7 +21,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "7db461a0ef0acbeda7639421d3e6f318"
+        "fingerprint": "5cf15393d941d0339902fa09ce2c1239"
       }
     }
   },
@@ -39,7 +39,8 @@
             "source": "packagist"
           }
         }
-      }
+      },
+      "lockfile_path": "composer.lock"
     }
   }
 }

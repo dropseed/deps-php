@@ -1587,7 +1587,8 @@
             "source": "packagist"
           }
         }
-      }
+      },
+      "lockfile_path": "composer.lock"
     }
   }
 }
