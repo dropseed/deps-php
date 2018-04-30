@@ -435,7 +435,7 @@
           },
           "drupal/core": {
             "installed": {
-              "name": "8.3.7"
+              "name": "8.3.9"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -462,7 +462,7 @@
           },
           "guzzlehttp/guzzle": {
             "installed": {
-              "name": "6.3.0"
+              "name": "6.3.3"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -497,7 +497,7 @@
           },
           "paragonie/random_compat": {
             "installed": {
-              "name": "v2.0.11"
+              "name": "v2.0.12"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -580,49 +580,49 @@
           },
           "symfony/class-loader": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/console": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/debug": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/dependency-injection": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/event-dispatcher": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-foundation": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-kernel": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -664,7 +664,7 @@
           },
           "symfony/process": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -678,42 +678,42 @@
           },
           "symfony/routing": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/serializer": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/translation": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/validator": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.36"
+              "name": "v2.8.39"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "twig/twig": {
             "installed": {
-              "name": "v1.35.2"
+              "name": "v1.35.3"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -727,7 +727,7 @@
           },
           "zendframework/zend-escaper": {
             "installed": {
-              "name": "2.5.2"
+              "name": "2.6.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -741,13 +741,13 @@
           },
           "zendframework/zend-stdlib": {
             "installed": {
-              "name": "3.1.0"
+              "name": "3.2.0"
             },
             "is_transitive": true,
             "source": "packagist"
           }
         },
-        "fingerprint": "b2d34371b4197fecf6c8e9d9c5b4d131"
+        "fingerprint": "640ca8f072c37748d0375d8a5a7467a5"
       }
     }
   },
@@ -770,6 +770,9 @@
           "phpunit/phpunit": {
             "available": [
               {
+                "name": "4.0.0"
+              },
+              {
                 "name": "4.0.1"
               },
               {
@@ -785,22 +788,22 @@
                 "name": "4.0.5"
               },
               {
-                "name": "4.0.6"
+                "name": "dev-issue-2153/test-listeners-and-warnings"
               },
               {
                 "name": "dev-issue-3002/before-first-test-after-last-test-hooks"
-              },
-              {
-                "name": "4.0.0"
-              },
-              {
-                "name": "dev-issue-2153/test-listeners-and-warnings"
               },
               {
                 "name": "dev-issue-2145/stop-on-failure-fails-to-stop"
               },
               {
                 "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
+              },
+              {
+                "name": "dev-issue-2015/prefixed-phar"
+              },
+              {
+                "name": "4.0.6"
               },
               {
                 "name": "4.0.7"
@@ -1553,10 +1556,10 @@
                 "name": "6.5.6"
               },
               {
-                "name": "dev-issue-2015/prefixed-phar"
+                "name": "6.5.7"
               },
               {
-                "name": "6.5.7"
+                "name": "6.5.8"
               },
               {
                 "name": "6.5.x-dev"
@@ -1571,16 +1574,43 @@
                 "name": "7.0.2"
               },
               {
+                "name": "7.0.3"
+              },
+              {
                 "name": "7.0.x-dev"
+              },
+              {
+                "name": "7.1.0"
+              },
+              {
+                "name": "dev-refactor/symfony-process"
+              },
+              {
+                "name": "7.1.1"
+              },
+              {
+                "name": "7.1.2"
+              },
+              {
+                "name": "7.1.3"
+              },
+              {
+                "name": "7.1.4"
+              },
+              {
+                "name": "7.1.5"
               },
               {
                 "name": "7.1.x-dev"
               },
               {
+                "name": "7.2.x-dev"
+              },
+              {
                 "name": "dev-master"
               },
               {
-                "name": "dev-refactor/symfony-process"
+                "name": "dev-test-reorder"
               }
             ],
             "constraint": "3.7.*",

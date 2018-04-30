@@ -21,7 +21,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "5cf15393d941d0339902fa09ce2c1239"
+        "fingerprint": "bcc891b31fcedce6892a2cb7ac2bd8c4"
       }
     }
   },
@@ -31,6 +31,9 @@
         "dependencies": {
           "jetbrains/phpstorm-stubs": {
             "available": [
+              {
+                "name": "v2018.1.2"
+              },
               {
                 "name": "dev-pr/117"
               }

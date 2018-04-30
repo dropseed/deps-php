@@ -1,4 +1,4 @@
-FROM composer:1.6.3
+FROM composer:1.6.4
 
 RUN apk --no-cache add git wget
 

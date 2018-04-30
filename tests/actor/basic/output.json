@@ -8,39 +8,39 @@
               "test": {
                 "installed": {
                   "name": "1.0.0"
-                }, 
+                },
                 "source": "test"
               }
-            }, 
+            },
             "fingerprint": "test"
-          }, 
+          },
           "updated": {
             "dependencies": {
               "monolog/monolog": {
                 "installed": {
                   "name": "1.0.2"
-                }, 
+                },
                 "source": "packagist"
-              }, 
+              },
               "paragonie/random_compat": {
                 "installed": {
-                  "name": "v2.0.11"
-                }, 
-                "is_transitive": true, 
+                  "name": "v2.0.12"
+                },
+                "is_transitive": true,
                 "source": "packagist"
-              }, 
+              },
               "ramsey/uuid": {
                 "installed": {
                   "name": "3.6.0"
-                }, 
+                },
                 "source": "packagist"
               }
-            }, 
-            "fingerprint": "db69c99f9c71bdaec87db7919061fe2f"
+            },
+            "fingerprint": "346ccf1b27e12b9c50ef5a01d15fd266"
           }
         }
       }
-    }, 
+    },
     "metadata": {
       "foo": "bar"
     }
