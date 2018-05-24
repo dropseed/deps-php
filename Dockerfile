@@ -1,6 +1,6 @@
 FROM composer:1.6.5
 
-RUN apk --no-cache add git wget
+RUN apk --no-cache add git wget patch
 
 # add a non-root user and give them ownership
 RUN adduser -D -u 9000 app && \
