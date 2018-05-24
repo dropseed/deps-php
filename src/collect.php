@@ -9,6 +9,8 @@ function collect($dependency_path) {
         throw new Exception("$composer_json_path does not exist! A composer.json file is required.");
     }
 
+    runCommand("deps hook before_update");
+
     $composer_lock_path = composerLockPath($dependency_path);
     $composer_lock_existed = file_exists($composer_lock_path);
 
