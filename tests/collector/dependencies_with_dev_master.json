@@ -21,7 +21,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "bcc891b31fcedce6892a2cb7ac2bd8c4"
+        "fingerprint": "413f30376b608f90c4725b0108068008"
       }
     }
   },
@@ -33,9 +33,6 @@
             "available": [
               {
                 "name": "v2018.1.2"
-              },
-              {
-                "name": "dev-pr/117"
               }
             ],
             "constraint": "dev-master",
