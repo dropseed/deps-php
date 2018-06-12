@@ -132,13 +132,13 @@
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.40"
+              "name": "v2.8.41"
             },
             "is_transitive": true,
             "source": "packagist"
           }
         },
-        "fingerprint": "3c773a67d1e1f21360556559537f3357"
+        "fingerprint": "9fc2e795e2260aadc1851a6efd95b86b"
       }
     }
   },
@@ -248,7 +248,7 @@
                 "name": "1.23.0"
               },
               {
-                "name": "2.0.x-dev"
+                "name": "2.x-dev"
               },
               {
                 "name": "dev-master"
@@ -284,6 +284,9 @@
                 "name": "4.0.7"
               },
               {
+                "name": "4.0.8"
+              },
+              {
                 "name": "dev-issue-3002/before-first-test-after-last-test-hooks"
               },
               {
@@ -291,9 +294,6 @@
               },
               {
                 "name": "dev-issue-2145/stop-on-failure-fails-to-stop"
-              },
-              {
-                "name": "4.0.8"
               },
               {
                 "name": "4.0.9"
@@ -1067,9 +1067,6 @@
                 "name": "7.1.0"
               },
               {
-                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
-              },
-              {
                 "name": "7.1.1"
               },
               {
@@ -1088,7 +1085,28 @@
                 "name": "7.1.x-dev"
               },
               {
+                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
+              },
+              {
+                "name": "7.2.0"
+              },
+              {
+                "name": "7.2.1"
+              },
+              {
+                "name": "7.2.2"
+              },
+              {
+                "name": "7.2.3"
+              },
+              {
+                "name": "7.2.4"
+              },
+              {
                 "name": "7.2.x-dev"
+              },
+              {
+                "name": "7.3.x-dev"
               },
               {
                 "name": "dev-master"
