@@ -903,6 +903,15 @@
                 "name": "6.5.8"
               },
               {
+                "name": "6.5.9"
+              },
+              {
+                "name": "6.5.10"
+              },
+              {
+                "name": "6.5.11"
+              },
+              {
                 "name": "6.5.x-dev"
               },
               {
@@ -916,6 +925,9 @@
               },
               {
                 "name": "7.0.3"
+              },
+              {
+                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
               },
               {
                 "name": "7.0.x-dev"
@@ -942,9 +954,6 @@
                 "name": "7.1.x-dev"
               },
               {
-                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
-              },
-              {
                 "name": "7.2.0"
               },
               {
@@ -960,10 +969,28 @@
                 "name": "7.2.4"
               },
               {
+                "name": "7.2.5"
+              },
+              {
+                "name": "7.2.6"
+              },
+              {
+                "name": "7.2.7"
+              },
+              {
                 "name": "7.2.x-dev"
               },
               {
+                "name": "7.3.0"
+              },
+              {
+                "name": "7.3.1"
+              },
+              {
                 "name": "7.3.x-dev"
+              },
+              {
+                "name": "7.4.x-dev"
               },
               {
                 "name": "dev-master"

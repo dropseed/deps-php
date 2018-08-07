@@ -414,7 +414,14 @@
           },
           "doctrine/common": {
             "installed": {
-              "name": "v2.8.1"
+              "name": "v2.9.0"
+            },
+            "is_transitive": true,
+            "source": "packagist"
+          },
+          "doctrine/event-manager": {
+            "installed": {
+              "name": "v1.0.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -429,6 +436,20 @@
           "doctrine/lexer": {
             "installed": {
               "name": "v1.0.1"
+            },
+            "is_transitive": true,
+            "source": "packagist"
+          },
+          "doctrine/persistence": {
+            "installed": {
+              "name": "v1.0.0"
+            },
+            "is_transitive": true,
+            "source": "packagist"
+          },
+          "doctrine/reflection": {
+            "installed": {
+              "name": "v1.0.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -497,7 +518,7 @@
           },
           "paragonie/random_compat": {
             "installed": {
-              "name": "v2.0.15"
+              "name": "v2.0.17"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -580,98 +601,98 @@
           },
           "symfony/class-loader": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/console": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/debug": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/dependency-injection": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/event-dispatcher": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-foundation": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-kernel": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-apcu": {
             "installed": {
-              "name": "v1.8.0"
+              "name": "v1.9.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-ctype": {
             "installed": {
-              "name": "v1.8.0"
+              "name": "v1.9.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-iconv": {
             "installed": {
-              "name": "v1.8.0"
+              "name": "v1.9.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-mbstring": {
             "installed": {
-              "name": "v1.8.0"
+              "name": "v1.9.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php54": {
             "installed": {
-              "name": "v1.8.0"
+              "name": "v1.9.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php55": {
             "installed": {
-              "name": "v1.8.0"
+              "name": "v1.9.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/process": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -685,49 +706,49 @@
           },
           "symfony/routing": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/serializer": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/translation": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/validator": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.41"
+              "name": "v2.8.44"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "twig/twig": {
             "installed": {
-              "name": "v1.35.3"
+              "name": "v1.35.4"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "zendframework/zend-diactoros": {
             "installed": {
-              "name": "1.7.2"
+              "name": "1.8.4"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -741,7 +762,7 @@
           },
           "zendframework/zend-feed": {
             "installed": {
-              "name": "2.10.1"
+              "name": "2.10.3"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -754,7 +775,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "f290f0988052e7b3cd01689e035f77c4"
+        "fingerprint": "c769e61f68ce85519c55638b82cc8006"
       }
     }
   },
@@ -1569,6 +1590,15 @@
                 "name": "6.5.8"
               },
               {
+                "name": "6.5.9"
+              },
+              {
+                "name": "6.5.10"
+              },
+              {
+                "name": "6.5.11"
+              },
+              {
                 "name": "6.5.x-dev"
               },
               {
@@ -1582,6 +1612,9 @@
               },
               {
                 "name": "7.0.3"
+              },
+              {
+                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
               },
               {
                 "name": "7.0.x-dev"
@@ -1608,9 +1641,6 @@
                 "name": "7.1.x-dev"
               },
               {
-                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
-              },
-              {
                 "name": "7.2.0"
               },
               {
@@ -1626,10 +1656,28 @@
                 "name": "7.2.4"
               },
               {
+                "name": "7.2.5"
+              },
+              {
+                "name": "7.2.6"
+              },
+              {
+                "name": "7.2.7"
+              },
+              {
                 "name": "7.2.x-dev"
               },
               {
+                "name": "7.3.0"
+              },
+              {
+                "name": "7.3.1"
+              },
+              {
                 "name": "7.3.x-dev"
+              },
+              {
+                "name": "7.4.x-dev"
               },
               {
                 "name": "dev-master"

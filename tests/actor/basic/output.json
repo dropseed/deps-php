@@ -24,7 +24,7 @@
               },
               "paragonie/random_compat": {
                 "installed": {
-                  "name": "v2.0.15"
+                  "name": "v2.0.17"
                 },
                 "is_transitive": true,
                 "source": "packagist"
@@ -36,7 +36,7 @@
                 "source": "packagist"
               }
             },
-            "fingerprint": "6f27cd194332e9000e6454a96b1f6325"
+            "fingerprint": "4021bdfc2083625c43c0e6a08a20d58a"
           }
         }
       }
