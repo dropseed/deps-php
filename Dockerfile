@@ -1,4 +1,4 @@
-FROM composer:1.7
+FROM composer:1.7.1
 
 RUN apk --no-cache add git wget patch
 
