@@ -132,13 +132,13 @@
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.44"
+              "name": "v2.8.45"
             },
             "is_transitive": true,
             "source": "packagist"
           }
         },
-        "fingerprint": "c7923a5b9b8062d9943c8f6f0c34d9b0"
+        "fingerprint": "e82c0f08ec366b6f68a77fc952e7a9c0"
       }
     }
   },
@@ -260,9 +260,6 @@
           "phpunit/phpunit": {
             "available": [
               {
-                "name": "4.0.0"
-              },
-              {
                 "name": "4.0.1"
               },
               {
@@ -284,7 +281,10 @@
                 "name": "4.0.7"
               },
               {
-                "name": "4.0.8"
+                "name": "dev-willemstuursma-patch-1"
+              },
+              {
+                "name": "4.0.0"
               },
               {
                 "name": "dev-issue-3002/before-first-test-after-last-test-hooks"
@@ -294,6 +294,9 @@
               },
               {
                 "name": "dev-issue-2145/stop-on-failure-fails-to-stop"
+              },
+              {
+                "name": "4.0.8"
               },
               {
                 "name": "4.0.9"
@@ -1055,6 +1058,9 @@
                 "name": "6.5.11"
               },
               {
+                "name": "6.5.12"
+              },
+              {
                 "name": "6.5.x-dev"
               },
               {
@@ -1070,13 +1076,13 @@
                 "name": "7.0.3"
               },
               {
-                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
-              },
-              {
                 "name": "7.0.x-dev"
               },
               {
                 "name": "7.1.0"
+              },
+              {
+                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
               },
               {
                 "name": "7.1.1"
@@ -1128,6 +1134,12 @@
               },
               {
                 "name": "7.3.1"
+              },
+              {
+                "name": "7.3.2"
+              },
+              {
+                "name": "7.3.3"
               },
               {
                 "name": "7.3.x-dev"
