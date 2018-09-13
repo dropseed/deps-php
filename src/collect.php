@@ -60,7 +60,7 @@ function manifestSchemaFromLockfile($dependency_path) {
 
     $getInstalledVersion = function($name) use($all_packages) {
         foreach ($all_packages as $p) {
-            if ($p['name'] === $name) return $p['version'];
+            if ($p['name'] === $name) return (string) $p['version'];
         }
     };
 
@@ -90,7 +90,7 @@ function manifestSchemaFromLockfile($dependency_path) {
 
         $installed = $getInstalledVersion($name);
         $available = array_map(function($v) {
-            return array('name' => $v);
+            return array('name' => (string) $v);
         }, $getAvailableVersionsForManifest($name, $installed, $constraint));
 
         $dependencies[$name] = array(
@@ -112,7 +112,7 @@ function lockfileSchemaFromLockfile($dependency_path) {
     foreach($all_packages as $package) {
         $name = $package['name'];
         $dependencies[$name] = array(
-            'installed' => array('name' => $package['version']),
+            'installed' => array('name' => (string) $package['version']),
             // 'constraint' => 'get from all other requires and requires-dev?'
             'is_transitive' => !isset($all_requirements[$name]),
             'source' => 'packagist'
