@@ -476,7 +476,7 @@
           },
           "egulias/email-validator": {
             "installed": {
-              "name": "1.2.14"
+              "name": "1.2.15"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -511,7 +511,7 @@
           },
           "masterminds/html5": {
             "installed": {
-              "name": "2.3.0"
+              "name": "2.3.1"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -601,98 +601,98 @@
           },
           "symfony/class-loader": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/console": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/debug": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/dependency-injection": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/event-dispatcher": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-foundation": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-kernel": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-apcu": {
             "installed": {
-              "name": "v1.9.0"
+              "name": "v1.10.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-ctype": {
             "installed": {
-              "name": "v1.9.0"
+              "name": "v1.10.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-iconv": {
             "installed": {
-              "name": "v1.9.0"
+              "name": "v1.10.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-mbstring": {
             "installed": {
-              "name": "v1.9.0"
+              "name": "v1.10.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php54": {
             "installed": {
-              "name": "v1.9.0"
+              "name": "v1.10.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php55": {
             "installed": {
-              "name": "v1.9.0"
+              "name": "v1.10.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/process": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -706,35 +706,35 @@
           },
           "symfony/routing": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/serializer": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/translation": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/validator": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.45"
+              "name": "v2.8.47"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -775,7 +775,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "90a0ab1085ddf011e653897edf7ed823"
+        "fingerprint": "71a07f0c953d3e2f007ec9420dc6c834"
       }
     }
   },
@@ -798,6 +798,9 @@
                 "name": "1.4.0"
               },
               {
+                "name": "1.5.0"
+              },
+              {
                 "name": "dev-1.x"
               }
             ],
@@ -806,9 +809,6 @@
           },
           "phpunit/phpunit": {
             "available": [
-              {
-                "name": "4.0.0"
-              },
               {
                 "name": "4.0.1"
               },
@@ -834,7 +834,10 @@
                 "name": "4.0.8"
               },
               {
-                "name": "4.0.9"
+                "name": "dev-issue-3341/deprecate-optional-assertEquals-parameters"
+              },
+              {
+                "name": "4.0.0"
               },
               {
                 "name": "dev-issue-3002/before-first-test-after-last-test-hooks"
@@ -844,6 +847,9 @@
               },
               {
                 "name": "dev-issue-2145/stop-on-failure-fails-to-stop"
+              },
+              {
+                "name": "4.0.9"
               },
               {
                 "name": "4.0.10"
@@ -1635,9 +1641,6 @@
                 "name": "7.1.2"
               },
               {
-                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
-              },
-              {
                 "name": "7.1.3"
               },
               {
@@ -1645,6 +1648,9 @@
               },
               {
                 "name": "7.1.5"
+              },
+              {
+                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
               },
               {
                 "name": "7.1.x-dev"
@@ -1698,7 +1704,22 @@
                 "name": "7.3.x-dev"
               },
               {
+                "name": "7.4.0"
+              },
+              {
+                "name": "7.4.1"
+              },
+              {
+                "name": "7.4.2"
+              },
+              {
+                "name": "7.4.3"
+              },
+              {
                 "name": "7.4.x-dev"
+              },
+              {
+                "name": "7.5.x-dev"
               },
               {
                 "name": "dev-master"
