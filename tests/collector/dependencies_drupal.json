@@ -414,7 +414,7 @@
           },
           "doctrine/common": {
             "installed": {
-              "name": "v2.9.0"
+              "name": "v2.10.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -442,7 +442,7 @@
           },
           "doctrine/persistence": {
             "installed": {
-              "name": "v1.0.1"
+              "name": "v1.1.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -497,7 +497,7 @@
           },
           "guzzlehttp/psr7": {
             "installed": {
-              "name": "1.4.2"
+              "name": "1.5.2"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -511,7 +511,7 @@
           },
           "masterminds/html5": {
             "installed": {
-              "name": "2.3.1"
+              "name": "2.4.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -580,7 +580,14 @@
           },
           "psr/log": {
             "installed": {
-              "name": "1.0.2"
+              "name": "1.1.0"
+            },
+            "is_transitive": true,
+            "source": "packagist"
+          },
+          "ralouphie/getallheaders": {
+            "installed": {
+              "name": "2.0.5"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -601,49 +608,49 @@
           },
           "symfony/class-loader": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/console": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/debug": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/dependency-injection": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/event-dispatcher": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-foundation": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-kernel": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -692,7 +699,7 @@
           },
           "symfony/process": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -706,35 +713,35 @@
           },
           "symfony/routing": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/serializer": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/translation": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/validator": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.47"
+              "name": "v2.8.48"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -775,7 +782,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "71a07f0c953d3e2f007ec9420dc6c834"
+        "fingerprint": "d2567ee55059afa72960ea9379631221"
       }
     }
   },
@@ -801,6 +808,9 @@
                 "name": "1.5.0"
               },
               {
+                "name": "1.x-dev"
+              },
+              {
                 "name": "dev-1.x"
               }
             ],
@@ -809,6 +819,9 @@
           },
           "phpunit/phpunit": {
             "available": [
+              {
+                "name": "4.0.0"
+              },
               {
                 "name": "4.0.1"
               },
@@ -832,21 +845,6 @@
               },
               {
                 "name": "4.0.8"
-              },
-              {
-                "name": "dev-issue-3341/deprecate-optional-assertEquals-parameters"
-              },
-              {
-                "name": "4.0.0"
-              },
-              {
-                "name": "dev-issue-3002/before-first-test-after-last-test-hooks"
-              },
-              {
-                "name": "dev-issue-2153/test-listeners-and-warnings"
-              },
-              {
-                "name": "dev-issue-2145/stop-on-failure-fails-to-stop"
               },
               {
                 "name": "4.0.9"
@@ -885,9 +883,6 @@
                 "name": "4.0.20"
               },
               {
-                "name": "4.0.x-dev"
-              },
-              {
                 "name": "4.1.0"
               },
               {
@@ -907,9 +902,6 @@
               },
               {
                 "name": "4.1.6"
-              },
-              {
-                "name": "4.1.x-dev"
               },
               {
                 "name": "4.2.0"
@@ -933,9 +925,6 @@
                 "name": "4.2.6"
               },
               {
-                "name": "4.2.x-dev"
-              },
-              {
                 "name": "4.3.0"
               },
               {
@@ -952,9 +941,6 @@
               },
               {
                 "name": "4.3.5"
-              },
-              {
-                "name": "4.3.x-dev"
               },
               {
                 "name": "4.4.0"
@@ -975,16 +961,10 @@
                 "name": "4.4.5"
               },
               {
-                "name": "4.4.x-dev"
-              },
-              {
                 "name": "4.5.0"
               },
               {
                 "name": "4.5.1"
-              },
-              {
-                "name": "4.5.x-dev"
               },
               {
                 "name": "4.6.0"
@@ -1020,9 +1000,6 @@
                 "name": "4.6.10"
               },
               {
-                "name": "4.6.x-dev"
-              },
-              {
                 "name": "4.7.0"
               },
               {
@@ -1045,9 +1022,6 @@
               },
               {
                 "name": "4.7.7"
-              },
-              {
-                "name": "4.7.x-dev"
               },
               {
                 "name": "4.8.0"
@@ -1161,9 +1135,6 @@
                 "name": "4.8.36"
               },
               {
-                "name": "4.8.x-dev"
-              },
-              {
                 "name": "5.0.0"
               },
               {
@@ -1197,9 +1168,6 @@
                 "name": "5.0.10"
               },
               {
-                "name": "5.0.x-dev"
-              },
-              {
                 "name": "5.1.0"
               },
               {
@@ -1222,9 +1190,6 @@
               },
               {
                 "name": "5.1.7"
-              },
-              {
-                "name": "5.1.x-dev"
               },
               {
                 "name": "5.2.0"
@@ -1266,9 +1231,6 @@
                 "name": "5.2.12"
               },
               {
-                "name": "5.2.x-dev"
-              },
-              {
                 "name": "5.3.0"
               },
               {
@@ -1285,9 +1247,6 @@
               },
               {
                 "name": "5.3.5"
-              },
-              {
-                "name": "5.3.x-dev"
               },
               {
                 "name": "5.4.0"
@@ -1317,9 +1276,6 @@
                 "name": "5.4.8"
               },
               {
-                "name": "5.4.x-dev"
-              },
-              {
                 "name": "5.5.0"
               },
               {
@@ -1342,9 +1298,6 @@
               },
               {
                 "name": "5.5.7"
-              },
-              {
-                "name": "5.5.x-dev"
               },
               {
                 "name": "5.6.0"
@@ -1372,9 +1325,6 @@
               },
               {
                 "name": "5.6.8"
-              },
-              {
-                "name": "5.6.x-dev"
               },
               {
                 "name": "5.7.0"
@@ -1461,9 +1411,6 @@
                 "name": "5.7.27"
               },
               {
-                "name": "5.7.x-dev"
-              },
-              {
                 "name": "6.0.0"
               },
               {
@@ -1506,9 +1453,6 @@
                 "name": "6.0.13"
               },
               {
-                "name": "6.0.x-dev"
-              },
-              {
                 "name": "6.1.0"
               },
               {
@@ -1522,9 +1466,6 @@
               },
               {
                 "name": "6.1.4"
-              },
-              {
-                "name": "6.1.x-dev"
               },
               {
                 "name": "6.2.0"
@@ -1542,16 +1483,10 @@
                 "name": "6.2.4"
               },
               {
-                "name": "6.2.x-dev"
-              },
-              {
                 "name": "6.3.0"
               },
               {
                 "name": "6.3.1"
-              },
-              {
-                "name": "6.3.x-dev"
               },
               {
                 "name": "6.4.0"
@@ -1567,9 +1502,6 @@
               },
               {
                 "name": "6.4.4"
-              },
-              {
-                "name": "6.4.x-dev"
               },
               {
                 "name": "6.5.0"
@@ -1629,9 +1561,6 @@
                 "name": "7.0.3"
               },
               {
-                "name": "7.0.x-dev"
-              },
-              {
                 "name": "7.1.0"
               },
               {
@@ -1648,12 +1577,6 @@
               },
               {
                 "name": "7.1.5"
-              },
-              {
-                "name": "dev-issue-2111/assertNotContains-fails-when-array-contains-boolean"
-              },
-              {
-                "name": "7.1.x-dev"
               },
               {
                 "name": "7.2.0"
@@ -1680,9 +1603,6 @@
                 "name": "7.2.7"
               },
               {
-                "name": "7.2.x-dev"
-              },
-              {
                 "name": "7.3.0"
               },
               {
@@ -1701,9 +1621,6 @@
                 "name": "7.3.5"
               },
               {
-                "name": "7.3.x-dev"
-              },
-              {
                 "name": "7.4.0"
               },
               {
@@ -1716,10 +1633,19 @@
                 "name": "7.4.3"
               },
               {
+                "name": "7.4.4"
+              },
+              {
+                "name": "7.4.5"
+              },
+              {
                 "name": "7.4.x-dev"
               },
               {
                 "name": "7.5.x-dev"
+              },
+              {
+                "name": "8.0.x-dev"
               },
               {
                 "name": "dev-master"
