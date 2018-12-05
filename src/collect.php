@@ -2,6 +2,7 @@
 
 use Composer\Semver\Semver;
 use Composer\Semver\Comparator;
+use Composer\Semver\VersionParser;
 
 function collect($dependency_path) {
     $composer_json_path = composerJsonPath($dependency_path);
@@ -70,7 +71,8 @@ function manifestSchemaFromLockfile($dependency_path) {
         // manifest only wants versions outside (and above) of their range
         $versions = array_filter($versions, function($v) use($installed, $constraint) {
             if (Semver::satisfies($v, $constraint)) return false;  // don't want anything that can already be installed with constraint
-            if (Comparator::lessThan($v, $installed)) return false;  // don't want anything semver less than what we already have
+            $parser = new VersionParser();
+            if (Comparator::lessThan($parser->normalize($v), $parser->normalize($installed))) return false;  // don't want anything semver less than what we already have
             return true;
         });
 
