@@ -12,6 +12,10 @@ env:
   - TEST_TYPE=collector
   - TEST_TYPE=actor
 
-install: pip install dependencies-cli==2.2.4
+install:
+- pip install dependencies-cli==2.2.4
+- curl https://www.dependencies.io/install.sh | bash -s 2.5.0-beta.1
 
-script: dependencies test -k $TEST_TYPE --loose-output-data-comparison
+script:
+- dependencies test -k $TEST_TYPE --loose-output-data-comparison
+- ./bin/deps dev test --filter-type $TEST_TYPE --loose-output-data-comparison
