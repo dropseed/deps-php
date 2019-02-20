@@ -132,13 +132,13 @@
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           }
         },
-        "fingerprint": "a7723efea7fa35b52f7ffb48f84acec5"
+        "fingerprint": "df737d2f678f2ca4c78755aa173d052b"
       }
     }
   },
@@ -252,6 +252,9 @@
               },
               {
                 "name": "1.x-dev"
+              },
+              {
+                "name": "2.0.0-beta1"
               },
               {
                 "name": "2.x-dev"
@@ -992,7 +995,7 @@
                 "name": "6.5.13"
               },
               {
-                "name": "6.5.x-dev"
+                "name": "6.5.14"
               },
               {
                 "name": "7.0.0"
@@ -1085,13 +1088,49 @@
                 "name": "7.4.5"
               },
               {
-                "name": "7.4.x-dev"
+                "name": "7.5.0"
+              },
+              {
+                "name": "7.5.1"
+              },
+              {
+                "name": "7.5.2"
+              },
+              {
+                "name": "7.5.3"
+              },
+              {
+                "name": "7.5.4"
+              },
+              {
+                "name": "7.5.5"
+              },
+              {
+                "name": "7.5.6"
               },
               {
                 "name": "7.5.x-dev"
               },
               {
+                "name": "8.0.0"
+              },
+              {
+                "name": "8.0.1"
+              },
+              {
+                "name": "8.0.2"
+              },
+              {
+                "name": "8.0.3"
+              },
+              {
+                "name": "8.0.4"
+              },
+              {
                 "name": "8.0.x-dev"
+              },
+              {
+                "name": "8.1.x-dev"
               },
               {
                 "name": "dev-master"

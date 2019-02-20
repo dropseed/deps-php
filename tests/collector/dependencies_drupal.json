@@ -511,14 +511,14 @@
           },
           "masterminds/html5": {
             "installed": {
-              "name": "2.4.0"
+              "name": "2.5.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "paragonie/random_compat": {
             "installed": {
-              "name": "v2.0.17"
+              "name": "v2.0.18"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -608,49 +608,49 @@
           },
           "symfony/class-loader": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/console": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/debug": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/dependency-injection": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/event-dispatcher": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-foundation": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/http-kernel": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -699,7 +699,7 @@
           },
           "symfony/process": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -713,42 +713,42 @@
           },
           "symfony/routing": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/serializer": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/translation": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/validator": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/yaml": {
             "installed": {
-              "name": "v2.8.48"
+              "name": "v2.8.49"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "twig/twig": {
             "installed": {
-              "name": "v1.35.4"
+              "name": "v1.37.1"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -769,7 +769,7 @@
           },
           "zendframework/zend-feed": {
             "installed": {
-              "name": "2.10.3"
+              "name": "2.11.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -782,7 +782,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "d2567ee55059afa72960ea9379631221"
+        "fingerprint": "61409a864a8a62aa32c7873b113a719f"
       }
     }
   },
@@ -1546,7 +1546,7 @@
                 "name": "6.5.13"
               },
               {
-                "name": "6.5.x-dev"
+                "name": "6.5.14"
               },
               {
                 "name": "7.0.0"
@@ -1639,13 +1639,49 @@
                 "name": "7.4.5"
               },
               {
-                "name": "7.4.x-dev"
+                "name": "7.5.0"
+              },
+              {
+                "name": "7.5.1"
+              },
+              {
+                "name": "7.5.2"
+              },
+              {
+                "name": "7.5.3"
+              },
+              {
+                "name": "7.5.4"
+              },
+              {
+                "name": "7.5.5"
+              },
+              {
+                "name": "7.5.6"
               },
               {
                 "name": "7.5.x-dev"
               },
               {
+                "name": "8.0.0"
+              },
+              {
+                "name": "8.0.1"
+              },
+              {
+                "name": "8.0.2"
+              },
+              {
+                "name": "8.0.3"
+              },
+              {
+                "name": "8.0.4"
+              },
+              {
                 "name": "8.0.x-dev"
+              },
+              {
+                "name": "8.1.x-dev"
               },
               {
                 "name": "dev-master"

@@ -21,7 +21,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "ffb331e4fbacc82690efd7c9ae664227"
+        "fingerprint": "ebd3d8e4d0d74d8b2c586bd0309753d9"
       }
     }
   },
@@ -32,7 +32,7 @@
           "jetbrains/phpstorm-stubs": {
             "available": [
               {
-                "name": "dev-ifedorov/tests_for_interfaces"
+                "name": "dev-expected_args_json"
               }
             ],
             "constraint": "dev-master",
