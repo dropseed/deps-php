@@ -2,8 +2,9 @@ sudo: required
 services:
   - docker
 
+dist: xenial
 language: python
-python: 3.6
+python: 3.7
 cache: pip
 
 # split them up to speed up the tests
