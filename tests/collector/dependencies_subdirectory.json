@@ -125,7 +125,7 @@
           },
           "symfony/polyfill-ctype": {
             "installed": {
-              "name": "v1.10.0"
+              "name": "v1.11.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -138,7 +138,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "df737d2f678f2ca4c78755aa173d052b"
+        "fingerprint": "e4e437d5e06175767ea961261414cdc0"
       }
     }
   },
@@ -1109,6 +1109,12 @@
                 "name": "7.5.6"
               },
               {
+                "name": "7.5.7"
+              },
+              {
+                "name": "7.5.8"
+              },
+              {
                 "name": "7.5.x-dev"
               },
               {
@@ -1125,6 +1131,12 @@
               },
               {
                 "name": "8.0.4"
+              },
+              {
+                "name": "8.0.5"
+              },
+              {
+                "name": "8.0.6"
               },
               {
                 "name": "8.0.x-dev"

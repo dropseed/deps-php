@@ -386,7 +386,7 @@
           },
           "composer/semver": {
             "installed": {
-              "name": "1.4.2"
+              "name": "1.5.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -407,7 +407,7 @@
           },
           "doctrine/collections": {
             "installed": {
-              "name": "v1.5.0"
+              "name": "v1.6.1"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -511,7 +511,7 @@
           },
           "masterminds/html5": {
             "installed": {
-              "name": "2.5.0"
+              "name": "2.6.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -657,42 +657,42 @@
           },
           "symfony/polyfill-apcu": {
             "installed": {
-              "name": "v1.10.0"
+              "name": "v1.11.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-ctype": {
             "installed": {
-              "name": "v1.10.0"
+              "name": "v1.11.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-iconv": {
             "installed": {
-              "name": "v1.10.0"
+              "name": "v1.11.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-mbstring": {
             "installed": {
-              "name": "v1.10.0"
+              "name": "v1.11.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php54": {
             "installed": {
-              "name": "v1.10.0"
+              "name": "v1.11.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "symfony/polyfill-php55": {
             "installed": {
-              "name": "v1.10.0"
+              "name": "v1.11.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -706,7 +706,7 @@
           },
           "symfony/psr-http-message-bridge": {
             "installed": {
-              "name": "v1.1.0"
+              "name": "v1.1.1"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -748,7 +748,7 @@
           },
           "twig/twig": {
             "installed": {
-              "name": "v1.37.1"
+              "name": "v1.38.4"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -769,7 +769,7 @@
           },
           "zendframework/zend-feed": {
             "installed": {
-              "name": "2.11.0"
+              "name": "2.12.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -782,7 +782,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "61409a864a8a62aa32c7873b113a719f"
+        "fingerprint": "6df773302232e6ee34dfdb70ea3fec35"
       }
     }
   },
@@ -1660,6 +1660,12 @@
                 "name": "7.5.6"
               },
               {
+                "name": "7.5.7"
+              },
+              {
+                "name": "7.5.8"
+              },
+              {
                 "name": "7.5.x-dev"
               },
               {
@@ -1676,6 +1682,12 @@
               },
               {
                 "name": "8.0.4"
+              },
+              {
+                "name": "8.0.5"
+              },
+              {
+                "name": "8.0.6"
               },
               {
                 "name": "8.0.x-dev"
