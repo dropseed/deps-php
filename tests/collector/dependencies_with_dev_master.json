@@ -21,7 +21,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "b4e8082d2ce0e7cbd02125a9be5c2082"
+        "fingerprint": "bff4d770ec02e33affb9906ffacf931b"
       }
     }
   },
@@ -31,6 +31,9 @@
         "dependencies": {
           "jetbrains/phpstorm-stubs": {
             "available": [
+              {
+                "name": "dev-pull/526"
+              },
               {
                 "name": "dev-expected_args_json"
               }
