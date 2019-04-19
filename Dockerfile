@@ -26,6 +26,6 @@ ADD src /usr/src/app/src
 
 WORKDIR /repo
 
-ENV COMPOSER_MEMORY_LIMIT=900M
+ENV COMPOSER_MEMORY_LIMIT=1G
 
 ENTRYPOINT ["php", "/usr/src/app/src/entrypoint.php"]
