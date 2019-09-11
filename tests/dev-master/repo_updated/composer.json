@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jetbrains/phpstorm-stubs": "dev-master"
+    }
+}

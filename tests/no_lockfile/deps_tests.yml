@@ -1,0 +1,7 @@
+tests:
+- name: no lockfile
+  repo: repo_current
+  diff: repo_updated
+  data: dependencies.json
+  user_config:
+    path: /

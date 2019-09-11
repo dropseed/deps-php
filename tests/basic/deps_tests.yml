@@ -1,0 +1,9 @@
+tests:
+- name: Basic test
+  repo: repo_base
+  diff: repo_final
+  data: dependencies.json
+  user_config:
+    path: /
+    # settings:
+      # composer_options: "--ignore-platform-reqs"

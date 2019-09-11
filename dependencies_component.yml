@@ -1,0 +1,3 @@
+install: composer install
+collect: RUN_AS=collector php $DEPS_COMPONENT_PATH/src/entrypoint.php
+act: RUN_AS=actor php $DEPS_COMPONENT_PATH/src/entrypoint.php

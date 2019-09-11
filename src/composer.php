@@ -1,7 +1,7 @@
 <?php
 
 function getComposerOptions() {
-    $from_settings = getenv('SETTING_COMPOSER_OPTIONS');
+    $from_settings = getenv('DEPS_SETTING_COMPOSER_OPTIONS');
     if ($from_settings) return $from_settings;
     return "--no-progress --no-suggest";
 }

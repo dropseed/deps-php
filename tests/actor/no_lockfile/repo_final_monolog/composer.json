@@ -1,8 +1,0 @@
-{
-    "require": {
-        "monolog/monolog": "1.23.0"
-    },
-    "require-dev": {
-        "ramsey/uuid": "3.6.0"
-    }
-}

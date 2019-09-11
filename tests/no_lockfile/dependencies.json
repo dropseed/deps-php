@@ -1,0 +1,30 @@
+{
+  "manifests": {
+    "composer.json": {
+      "current": {
+        "dependencies": {
+          "monolog/monolog": {
+            "constraint": "1.0.*",
+            "source": "packagist"
+          },
+          "phpunit/phpunit": {
+            "constraint": "7.4.*",
+            "source": "packagist"
+          }
+        }
+      },
+      "updated": {
+        "dependencies": {
+          "monolog/monolog": {
+            "constraint": "1.25.1",
+            "source": "packagist"
+          },
+          "phpunit/phpunit": {
+            "constraint": "7.5.15",
+            "source": "packagist"
+          }
+        }
+      }
+    }
+  }
+}
