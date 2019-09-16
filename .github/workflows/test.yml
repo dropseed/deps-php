@@ -1,0 +1,10 @@
+name: test
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - run: composer install
+    - run: curl https://deps.app/install.sh | bash -s -- -b $HOME/bin
+    - run: deps dev test -vl
