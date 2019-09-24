@@ -68,7 +68,7 @@ function manifestSchemaFromLockfile($dependency_path) {
         );
 
         $latest = $composerOutdated[$name]["latest"];
-        if ($latest && !Semver::satisfies($latest, $constraint)) {
+        if ($latest && strpos($latest, "dev-") !== 0 && !Semver::satisfies($latest, $constraint)) {
             $updatedDependencies[$name] = array(
                 'constraint' => $latest,  // TODO guess prefix
                 'source' => 'packagist'
