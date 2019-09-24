@@ -13,10 +13,7 @@ function collect($dependency_path, $output_path) {
     $composer_lock_path = composerLockPath($dependency_path);
     $composer_lock_existed = file_exists($composer_lock_path);
 
-    if (!$composer_lock_existed) {
-        echo "$composer_lock_path not found. Running \"composer install\" to generate one...\n";
-        composerInstall($dependency_path);
-    }
+    composerInstall($dependency_path);
 
     $output = array(
         'manifests' => array(
