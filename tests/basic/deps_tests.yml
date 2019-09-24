@@ -3,6 +3,7 @@ tests:
   repo: repo_base
   diff: repo_final
   data: dependencies.json
+  diff_args: ["-x", "vendor"]
   user_config:
     path: /
     # settings:
