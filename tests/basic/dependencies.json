@@ -245,21 +245,21 @@
           },
           "phpdocumentor/reflection-common": {
             "version": {
-              "name": "1.0.1"
+              "name": "2.0.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "phpdocumentor/reflection-docblock": {
             "version": {
-              "name": "4.3.1"
+              "name": "4.3.2"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "phpdocumentor/type-resolver": {
             "version": {
-              "name": "0.4.0"
+              "name": "1.0.1"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -301,7 +301,7 @@
           },
           "phpunit/php-token-stream": {
             "version": {
-              "name": "3.1.0"
+              "name": "3.1.1"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -342,7 +342,7 @@
           },
           "sebastian/exporter": {
             "version": {
-              "name": "3.1.1"
+              "name": "3.1.2"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -411,7 +411,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "13c607a72cdf9a38fe250c761e04d188"
+        "fingerprint": "ed46eb3bdd5ce6cf64d142d1bc73462f"
       }
     }
   },
@@ -437,7 +437,7 @@
             "source": "packagist"
           },
           "phpunit/phpunit": {
-            "constraint": "7.5.15",
+            "constraint": "7.5.16",
             "source": "packagist"
           }
         }

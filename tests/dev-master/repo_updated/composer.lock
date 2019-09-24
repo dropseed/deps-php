@@ -12,19 +12,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JetBrains/phpstorm-stubs.git",
-                "reference": "4c8579a5a840ab8ffb32794b8bcbc90b707a387d"
+                "reference": "f3a010af18f763091fe2182b16c041333ba6a7fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JetBrains/phpstorm-stubs/zipball/4c8579a5a840ab8ffb32794b8bcbc90b707a387d",
-                "reference": "4c8579a5a840ab8ffb32794b8bcbc90b707a387d",
+                "url": "https://api.github.com/repos/JetBrains/phpstorm-stubs/zipball/f3a010af18f763091fe2182b16c041333ba6a7fb",
+                "reference": "f3a010af18f763091fe2182b16c041333ba6a7fb",
                 "shasum": ""
             },
             "require-dev": {
-                "nikic/php-parser": "v4.0.1",
+                "nikic/php-parser": "^4",
                 "php": "^7.1",
                 "phpdocumentor/reflection-docblock": "^4.3",
-                "phpunit/phpunit": "7.1.4"
+                "phpunit/phpunit": "^7"
             },
             "type": "library",
             "autoload": {
@@ -48,7 +48,7 @@
                 "stubs",
                 "type"
             ],
-            "time": "2019-09-11T12:48:49+00:00"
+            "time": "2019-09-18T14:39:59+00:00"
         }
     ],
     "packages-dev": [],

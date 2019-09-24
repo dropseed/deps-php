@@ -20,7 +20,7 @@
             "source": "packagist"
           },
           "phpunit/phpunit": {
-            "constraint": "7.5.15",
+            "constraint": "7.5.16",
             "source": "packagist"
           }
         }
