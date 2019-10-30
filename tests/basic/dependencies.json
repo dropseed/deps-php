@@ -266,14 +266,14 @@
           },
           "phpspec/prophecy": {
             "version": {
-              "name": "1.8.1"
+              "name": "1.9.0"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-code-coverage": {
             "version": {
-              "name": "6.1.4"
+              "name": "7.0.8"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -308,7 +308,7 @@
           },
           "phpunit/phpunit": {
             "version": {
-              "name": "7.4.5"
+              "name": "8.4.2"
             },
             "source": "packagist"
           },
@@ -349,7 +349,7 @@
           },
           "sebastian/global-state": {
             "version": {
-              "name": "2.0.0"
+              "name": "3.0.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -378,6 +378,13 @@
           "sebastian/resource-operations": {
             "version": {
               "name": "2.0.1"
+            },
+            "is_transitive": true,
+            "source": "packagist"
+          },
+          "sebastian/type": {
+            "version": {
+              "name": "1.1.3"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -411,7 +418,7 @@
             "source": "packagist"
           }
         },
-        "fingerprint": "ed46eb3bdd5ce6cf64d142d1bc73462f"
+        "fingerprint": "6feff14ecfd8323983e550e17aa3877e"
       }
     }
   },
@@ -424,7 +431,7 @@
             "source": "packagist"
           },
           "phpunit/phpunit": {
-            "constraint": "7.4.*",
+            "constraint": "8.*",
             "source": "packagist"
           }
         }
@@ -433,11 +440,7 @@
       "updated": {
         "dependencies": {
           "monolog/monolog": {
-            "constraint": "1.25.1",
-            "source": "packagist"
-          },
-          "phpunit/phpunit": {
-            "constraint": "7.5.16",
+            "constraint": "2.0.0",
             "source": "packagist"
           }
         }
