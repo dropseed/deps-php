@@ -211,7 +211,7 @@
         "dependencies": {
           "doctrine/instantiator": {
             "version": {
-              "name": "1.2.0"
+              "name": "1.3.0"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -224,7 +224,7 @@
           },
           "myclabs/deep-copy": {
             "version": {
-              "name": "1.9.3"
+              "name": "1.9.5"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -252,7 +252,7 @@
           },
           "phpdocumentor/reflection-docblock": {
             "version": {
-              "name": "4.3.2"
+              "name": "4.3.4"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -266,14 +266,14 @@
           },
           "phpspec/prophecy": {
             "version": {
-              "name": "1.9.0"
+              "name": "v1.10.2"
             },
             "is_transitive": true,
             "source": "packagist"
           },
           "phpunit/php-code-coverage": {
             "version": {
-              "name": "7.0.8"
+              "name": "7.0.10"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -308,7 +308,7 @@
           },
           "phpunit/phpunit": {
             "version": {
-              "name": "8.4.2"
+              "name": "8.5.2"
             },
             "source": "packagist"
           },
@@ -335,7 +335,7 @@
           },
           "sebastian/environment": {
             "version": {
-              "name": "4.2.2"
+              "name": "4.2.3"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -398,7 +398,7 @@
           },
           "symfony/polyfill-ctype": {
             "version": {
-              "name": "v1.12.0"
+              "name": "v1.13.1"
             },
             "is_transitive": true,
             "source": "packagist"
@@ -412,13 +412,13 @@
           },
           "webmozart/assert": {
             "version": {
-              "name": "1.5.0"
+              "name": "1.6.0"
             },
             "is_transitive": true,
             "source": "packagist"
           }
         },
-        "fingerprint": "6feff14ecfd8323983e550e17aa3877e"
+        "fingerprint": "0803ee09b877d06a8a04a52935c23373"
       }
     }
   },
@@ -440,7 +440,7 @@
       "updated": {
         "dependencies": {
           "monolog/monolog": {
-            "constraint": "2.0.0",
+            "constraint": "2.0.2",
             "source": "packagist"
           }
         }

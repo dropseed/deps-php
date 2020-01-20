@@ -16,7 +16,7 @@
       "updated": {
         "dependencies": {
           "monolog/monolog": {
-            "constraint": "2.0.0",
+            "constraint": "2.0.2",
             "source": "packagist"
           }
         }

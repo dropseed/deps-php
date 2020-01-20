@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JetBrains/phpstorm-stubs.git",
-                "reference": "03802417597433fb55ec776036bf5d84312b5c92"
+                "reference": "7e7eacac5b16a88124d68ae41597468f1cac20eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JetBrains/phpstorm-stubs/zipball/03802417597433fb55ec776036bf5d84312b5c92",
-                "reference": "03802417597433fb55ec776036bf5d84312b5c92",
+                "url": "https://api.github.com/repos/JetBrains/phpstorm-stubs/zipball/7e7eacac5b16a88124d68ae41597468f1cac20eb",
+                "reference": "7e7eacac5b16a88124d68ae41597468f1cac20eb",
                 "shasum": ""
             },
             "require-dev": {
@@ -48,7 +48,7 @@
                 "stubs",
                 "type"
             ],
-            "time": "2019-10-30T16:07:11+00:00"
+            "time": "2020-01-20T17:22:24+00:00"
         }
     ],
     "packages-dev": [],
