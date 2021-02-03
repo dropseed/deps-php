@@ -12,20 +12,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JetBrains/phpstorm-stubs.git",
-                "reference": "7e7eacac5b16a88124d68ae41597468f1cac20eb"
+                "reference": "89eb456a21704cb5dd3020367765b0a1993e4623"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JetBrains/phpstorm-stubs/zipball/7e7eacac5b16a88124d68ae41597468f1cac20eb",
-                "reference": "7e7eacac5b16a88124d68ae41597468f1cac20eb",
+                "url": "https://api.github.com/repos/JetBrains/phpstorm-stubs/zipball/89eb456a21704cb5dd3020367765b0a1993e4623",
+                "reference": "89eb456a21704cb5dd3020367765b0a1993e4623",
                 "shasum": ""
             },
             "require-dev": {
-                "nikic/php-parser": "^4",
-                "php": "^7.1",
-                "phpdocumentor/reflection-docblock": "^4.3",
-                "phpunit/phpunit": "^7"
+                "nikic/php-parser": "@stable",
+                "php": "^8.0",
+                "phpdocumentor/reflection-docblock": "@stable",
+                "phpunit/phpunit": "@stable"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -48,7 +49,10 @@
                 "stubs",
                 "type"
             ],
-            "time": "2020-01-20T17:22:24+00:00"
+            "support": {
+                "source": "https://github.com/JetBrains/phpstorm-stubs/tree/master"
+            },
+            "time": "2021-02-02T18:13:33+00:00"
         }
     ],
     "packages-dev": [],
@@ -60,5 +64,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }

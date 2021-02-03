@@ -104,6 +104,7 @@
             "version": {
               "name": "7.4.5"
             },
+            "is_transitive": true,
             "source": "packagist"
           },
           "sebastian/code-unit-reverse-lookup": {
@@ -209,216 +210,14 @@
       },
       "updated": {
         "dependencies": {
-          "doctrine/instantiator": {
-            "version": {
-              "name": "1.3.0"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
           "monolog/monolog": {
             "version": {
               "name": "1.0.2"
             },
             "source": "packagist"
-          },
-          "myclabs/deep-copy": {
-            "version": {
-              "name": "1.9.5"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phar-io/manifest": {
-            "version": {
-              "name": "1.0.3"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phar-io/version": {
-            "version": {
-              "name": "2.0.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpdocumentor/reflection-common": {
-            "version": {
-              "name": "2.0.0"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpdocumentor/reflection-docblock": {
-            "version": {
-              "name": "4.3.4"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpdocumentor/type-resolver": {
-            "version": {
-              "name": "1.0.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpspec/prophecy": {
-            "version": {
-              "name": "v1.10.2"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpunit/php-code-coverage": {
-            "version": {
-              "name": "7.0.10"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpunit/php-file-iterator": {
-            "version": {
-              "name": "2.0.2"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpunit/php-text-template": {
-            "version": {
-              "name": "1.2.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpunit/php-timer": {
-            "version": {
-              "name": "2.1.2"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpunit/php-token-stream": {
-            "version": {
-              "name": "3.1.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "phpunit/phpunit": {
-            "version": {
-              "name": "8.5.2"
-            },
-            "source": "packagist"
-          },
-          "sebastian/code-unit-reverse-lookup": {
-            "version": {
-              "name": "1.0.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/comparator": {
-            "version": {
-              "name": "3.0.2"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/diff": {
-            "version": {
-              "name": "3.0.2"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/environment": {
-            "version": {
-              "name": "4.2.3"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/exporter": {
-            "version": {
-              "name": "3.1.2"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/global-state": {
-            "version": {
-              "name": "3.0.0"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/object-enumerator": {
-            "version": {
-              "name": "3.0.3"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/object-reflector": {
-            "version": {
-              "name": "1.1.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/recursion-context": {
-            "version": {
-              "name": "3.0.0"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/resource-operations": {
-            "version": {
-              "name": "2.0.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/type": {
-            "version": {
-              "name": "1.1.3"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "sebastian/version": {
-            "version": {
-              "name": "2.0.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "symfony/polyfill-ctype": {
-            "version": {
-              "name": "v1.13.1"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "theseer/tokenizer": {
-            "version": {
-              "name": "1.1.3"
-            },
-            "is_transitive": true,
-            "source": "packagist"
-          },
-          "webmozart/assert": {
-            "version": {
-              "name": "1.6.0"
-            },
-            "is_transitive": true,
-            "source": "packagist"
           }
         },
-        "fingerprint": "0803ee09b877d06a8a04a52935c23373"
+        "fingerprint": "5e344407a8874b095cbe7b7285781dc4"
       }
     }
   },
@@ -429,10 +228,6 @@
           "monolog/monolog": {
             "constraint": "1.0.*",
             "source": "packagist"
-          },
-          "phpunit/phpunit": {
-            "constraint": "8.*",
-            "source": "packagist"
           }
         }
       },
@@ -440,7 +235,7 @@
       "updated": {
         "dependencies": {
           "monolog/monolog": {
-            "constraint": "2.0.2",
+            "constraint": "2.2.0",
             "source": "packagist"
           }
         }
