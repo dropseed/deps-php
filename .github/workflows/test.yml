@@ -4,7 +4,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - run: composer install
+    - uses: actions/checkout@v2
+    - uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
     - run: curl https://deps.app/install.sh | bash -s -- -b $HOME/bin
     - run: $HOME/bin/deps dev test -vl
