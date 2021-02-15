@@ -12,7 +12,7 @@ function runCommand($cmd) {
         var_dump($output);
         throw new Exception("Exception running: $cmd\n\n$output");
     }
-    $output = implode($output, "\n");
+    $output = implode("\n", $output);
     echo $output . "\n";
     return $output;
 }
